@@ -1,16 +1,16 @@
 import Link from "next/link";
 export default function Nav() {
     return (
-      <div className="flex justify-between items-center text-[#5f5f5f] max-w-[1240px] mx-auto h-[10rem">
+      <div className="flex items-center bg-[#242323] text-[#ffffff]  mx-auto h-[6rem]">
        
-       <Link href="/"> <h1 className="font-bold text-3xl pt-5 ">David Laid Workouts</h1></Link>
+       <Link href="/"> <h1 className="font-bold text-3xl pl-12  pr-14">David Laid Workouts</h1></Link>
           <ul className="flex">
-           <Link href="/"> <li className="m-5 font-semibold pt-5">Home</li></Link>
-           <Link href="./chest"> <li className="m-5 font-semibold pt-5">Chest</li></Link>
-           <Link href="./back"> <li className="m-5 font-semibold pt-5">Back</li></Link>
-           <Link href="./shoulder"> <li className="m-5 font-semibold pt-5">Shoulder</li></Link>
-           <Link href="./leg"> <li className="m-5 font-semibold pt-5">Leg</li></Link>
-           <Link href="./arm"> <li className="m-5 font-semibold pt-5">Arm</li></Link>
+           <Link href="/"> <li className="m-8 font-semibold ">Home</li></Link>
+           <Link href="./chest"> <li className="m-8 font-semibold ">Chest</li></Link>
+           <Link href="./back"> <li className="m-8 font-semibold ">Back</li></Link>
+           <Link href="./shoulder"> <li className="m-8 font-semibold ">Shoulder</li></Link>
+           <Link href="./leg"> <li className="m-8 font-semibold ">Leg</li></Link>
+           <Link href="./arm"> <li className="m-8 font-semibold ">Arm</li></Link>
           </ul>
         </div>
       
