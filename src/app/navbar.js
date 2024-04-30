@@ -1,7 +1,9 @@
 import Link from "next/link";
+
+
 export default function Nav() {
     return (
-      <div className="flex items-center bg-[#242323] text-[#ffffff]  mx-auto h-[6rem]">
+      <div className="flex items-center bg-[#242323] text-[#ffffff] mx-auto h-[6rem]">
        
        <Link href="/"> <h1 className="font-bold text-3xl pl-12  pr-14">David Laid Workouts</h1></Link>
           <ul className="flex">
