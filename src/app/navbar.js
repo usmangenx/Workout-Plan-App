@@ -36,7 +36,7 @@ export default function Nav() {
          <AiOutlineClose size={25}/>
          </div>
          </div>)}
-         { menuOpen && ( <div className=" ">
+         { menuOpen && ( <div className=" ml-4 text-xl ">
         <ul className="">
            <Link onClick={()=>setMenuOpen(false)} href="/"> <li className="m-8 font-semibold ">Home</li></Link>
            <Link onClick={()=>setMenuOpen(false)} href="./chest"> <li className="m-8 font-semibold ">Chest</li></Link>
