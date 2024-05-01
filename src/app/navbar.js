@@ -3,6 +3,7 @@ import Link from "next/link";
 
 
 
+
 export default function Nav() {
 
     return (
@@ -10,7 +11,6 @@ export default function Nav() {
        
        <Link href="/"> <h1 className="font-bold text-2xl md:text-3xl">David Laid Workouts</h1></Link>   
         </div>
-
 
       
     );
