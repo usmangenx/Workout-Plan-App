@@ -5,7 +5,7 @@ import Hero from "./Components/hero";
 
 export default function Home() {
   return (
-    <div>
+    <div className="max-w-[1300px] mx-auto">
       <div>
         <Nav />;
         <Image
