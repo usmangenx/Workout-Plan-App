@@ -34,7 +34,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="flex flex-col mx-auto">
-        <h1 className="text-white pl-6 pt-9 text-3xl font-extrabold">
+        <h1 className="text-white pl-6 pt-9 text-2xl font-extrabold">
           Build Yourself With Us!
         </h1>
         <button className="text-white mt-5 ml-5 mr-5 pt-3 pb-3 rounded-md bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium  text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Chest Workout</button>
