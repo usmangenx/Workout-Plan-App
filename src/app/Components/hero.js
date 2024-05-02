@@ -33,15 +33,15 @@ const Hero = () => {
           ></div>
         </div>
       </div>
-      <div className="flex flex-col mx-auto">
-        <h1 className="text-[#afafaf] pl-6 pt-9 text-2xl font-extrabold">
+      <div className="flex flex-col ">
+        <h1 className="text-white pl-4 pt-9 text-2xl font-extrabold">
           Build Yourself With Us!
         </h1>
-        <button className="text-[#afafaf] mt-5 ml-5 mr-5 pt-3 pb-3 rounded-md bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-700 font-medium  text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Chest Workout</button>
-        <button className="text-[#afafaf] mt-5 ml-5 mr-5 pt-3 pb-3 rounded-md bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-700 font-medium  text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Back Workout</button>
-        <button className="text-[#afafaf] mt-5 ml-5 mr-5 pt-3 pb-3 rounded-md bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-700 font-medium  text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Shoulder Workout</button>
-        <button className="text-[#afafaf] mt-5 ml-5 mr-5 pt-3 pb-3 rounded-md bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-700 font-medium  text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Leg Workout</button>
-        <button className="text-[#afafaf] mt-5 ml-5 mr-5 pt-3 pb-3 rounded-md bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-700 font-medium  text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Arm Workout</button>
+        <button className="mt-5 ml-5 mr-5 pt-3 pb-3 text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Chest Workout</button>
+        <button className="mt-5 ml-5 mr-5 pt-3 pb-3 text-white bg-gradient-to-r from-purple-700 via-purple-800 to-purple-900 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-900 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Back Workout</button>
+        <button className="text-white mt-5 ml-5 mr-5 pt-3 pb-3 bg-gradient-to-r from-gray-700 via-gray-800 to-gray-900 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-gray-900 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Shoulder Workout</button>
+        <button className="text-white mt-5 ml-5 mr-5 pt-3 pb-3 bg-gradient-to-r from-green-600 via-green-700 to-green-800 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-900 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Leg Workout</button>
+        <button className="text-white mt-5 ml-5 mr-5 pt-3 pb-3 bg-gradient-to-r from-green-500 via-green-600 to-green-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Arm Workout</button>
       </div>
     </div>
   );
