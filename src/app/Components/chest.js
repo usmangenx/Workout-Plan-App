@@ -1,8 +1,8 @@
-import { MotionDiv } from "./Components/motiondiv";
+import { MotionDiv } from "./motiondiv.js";
 
 const Chest = () => {
   return (
-    <div>
+    <div className="w-auto h-auto">
       <MotionDiv
         initial={{ height: 0 }}
         whileInView={{ height: "100%" }}
