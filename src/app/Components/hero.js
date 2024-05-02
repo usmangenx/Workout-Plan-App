@@ -38,9 +38,9 @@ const Hero = () => {
           Build Yourself With Us!
         </h1>
         <button className="mt-5 ml-5 mr-5 pt-3 pb-3 text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Chest Workout</button>
-        <button className="mt-5 ml-5 mr-5 pt-3 pb-3 text-white bg-gradient-to-r from-purple-700 via-purple-800 to-purple-900 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-900 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Back Workout</button>
+        <button className="mt-5 ml-5 mr-5 pt-3 pb-3 text-white bg-gradient-to-r from-purple-700 via-purple-800 to-purple-900 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-500 dark:focus:ring-purple-900 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Back Workout</button>
         <button className="text-white mt-5 ml-5 mr-5 pt-3 pb-3 bg-gradient-to-r from-gray-700 via-gray-800 to-gray-900 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-gray-800 dark:focus:ring-gray-900 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Shoulder Workout</button>
-        <button className="text-white mt-5 ml-5 mr-5 pt-3 pb-3 bg-gradient-to-r from-green-600 via-green-700 to-green-800 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-900 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Leg Workout</button>
+        <button className="text-white mt-5 ml-5 mr-5 pt-3 pb-3 bg-gradient-to-r from-green-600 via-green-700 to-green-800 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-500 dark:focus:ring-green-900 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Leg Workout</button>
         <button className="text-white mt-5 ml-5 mr-5 pt-3 pb-3 bg-gradient-to-r from-green-500 via-green-600 to-green-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Arm Workout</button>
       </div>
     </div>
