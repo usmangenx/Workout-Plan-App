@@ -1,6 +1,7 @@
 import { MotionDiv } from "./motiondiv";
 import Video from 'next-video';
 import Inclinebenchpress from "/videos/AdobeStock_295874876.mov"
+import Dinclinebenchpress from "/videos/AdobeStock_413826858.mov"
 
 const Chest = () => {
   return (
@@ -76,7 +77,21 @@ const Chest = () => {
           Incline bench press
           </span> <br/>
           5 sets, 5 reps
-          <Video className="mt-5 mr-5 max-w-[300px]"  src={Inclinebenchpress} />
+          <Video className="mt-5 mr-5 max-w-[300px]" autoPlay src={Inclinebenchpress} />
+        </MotionDiv>
+        <MotionDiv
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0.5, duration: 0.3 }}
+          viewport={{ once: false }}
+          className="text-[28px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
+          style={{ transitionDelay: "300ms" }}
+        >
+          <span className="text-[#7ee787]">
+          Dumbbell incline press
+          </span> <br/>
+          5 sets, 8-10 reps
+          <Video className="mt-5 mr-5 max-w-[300px]"  src={Dinclinebenchpress} />
         </MotionDiv>
       </div>
     </div>
