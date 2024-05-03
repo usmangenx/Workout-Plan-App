@@ -1,4 +1,6 @@
 import { MotionDiv } from "./motiondiv";
+import Video from 'next-video';
+import Inclinebenchpress from "/videos/AdobeStock_295874876.mov"
 
 const Chest = () => {
   return (
@@ -74,6 +76,7 @@ const Chest = () => {
           Incline bench press
           </span> <br/>
           5 sets, 5 reps
+          <Video className="mt-5 mr-5 max-w-[300px]"  src={Inclinebenchpress} />
         </MotionDiv>
       </div>
     </div>
