@@ -1,8 +1,8 @@
 import { MotionDiv } from "./motiondiv";
-import Video from 'next-video';
-import Inclinebenchpress from "/videos/AdobeStock_295874876.mov"
-import Dinclinebenchpress from "/videos/AdobeStock_413826858.mov"
-import Flatbenchpress from "/videos/AdobeStock_703093192.mov"
+import Video from "next-video";
+import Inclinebenchpress from "/videos/AdobeStock_295874876.mov";
+import Dinclinebenchpress from "/videos/AdobeStock_413826858.mov";
+import Flatbenchpress from "/videos/AdobeStock_703093192.mov";
 
 const Chest = () => {
   return (
@@ -74,11 +74,9 @@ const Chest = () => {
           className="text-[28px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
           style={{ transitionDelay: "300ms" }}
         >
-          <span className="text-[#7ee787]">
-          Incline bench press
-          </span> <br/>
+          <span className="text-[#7ee787]">Incline bench press</span> <br />
           5 sets, 5 reps
-          <Video className="mt-5 mr-5 max-w-[300px]" controls={true} loop={true} playsInline={true} autoPlay={true} src={Inclinebenchpress} />
+          <Video className="mt-5 mr-5 max-w-[300px]" src={Inclinebenchpress} />
         </MotionDiv>
         <MotionDiv
           initial={{ opacity: 0 }}
@@ -88,11 +86,9 @@ const Chest = () => {
           className="text-[28px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
           style={{ transitionDelay: "300ms" }}
         >
-          <span className="text-[#7ee787]">
-          Dumbbell incline press
-          </span> <br/>
+          <span className="text-[#7ee787]">Dumbbell incline press</span> <br />
           5 sets, 8-10 reps
-          <Video className="mt-5 mr-5 max-w-[300px]" controls={true} loop={true} playsInline={true} autoPlay={true} src={Dinclinebenchpress} />
+          <Video className="mt-5 mr-5 max-w-[300px]" src={Dinclinebenchpress} />
         </MotionDiv>
         <MotionDiv
           initial={{ opacity: 0 }}
@@ -102,11 +98,9 @@ const Chest = () => {
           className="text-[28px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
           style={{ transitionDelay: "300ms" }}
         >
-          <span className="text-[#7ee787]">
-          Flat bench press
-          </span> <br/>
+          <span className="text-[#7ee787]">Flat bench press</span> <br />
           5 sets, 6-8 reps
-          <Video className="mt-5 mr-5 max-w-[300px]" controls={true} loop={true} playsInline={true} autoPlay={true} src={Flatbenchpress} />
+          <Video className="mt-5 mr-5 max-w-[300px]" src={Flatbenchpress} />
         </MotionDiv>
         <MotionDiv
           initial={{ opacity: 0 }}
@@ -116,11 +110,9 @@ const Chest = () => {
           className="text-[28px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
           style={{ transitionDelay: "300ms" }}
         >
-          <span className="text-[#7ee787]">
-          Incline bench press
-          </span> <br/>
+          <span className="text-[#7ee787]">Incline bench press</span> <br />
           as many reps as possible
-          <Video className="mt-5 mr-5 max-w-[300px]" controls={true} loop={true} playsInline={true} autoPlay={true} src={Inclinebenchpress} />
+          <Video className="mt-5 mr-5 max-w-[300px]" src={Inclinebenchpress} />
         </MotionDiv>
         <MotionDiv
           initial={{ opacity: 0 }}
@@ -130,11 +122,9 @@ const Chest = () => {
           className="text-[28px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
           style={{ transitionDelay: "300ms" }}
         >
-          <span className="text-[#7ee787]">
-          Flat bench press
-          </span> <br/>
+          <span className="text-[#7ee787]">Flat bench press</span> <br />
           as many reps as possible
-          <Video className="mt-5 mr-5 max-w-[300px]" controls={true} loop={true} playsInline={true} autoPlay={true} src={Flatbenchpress} />
+          <Video className="mt-5 mr-5 max-w-[300px]" src={Flatbenchpress} />
         </MotionDiv>
       </div>
     </div>

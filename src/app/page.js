@@ -3,6 +3,7 @@ import Image from "next/image";
 import HeroImage from "/public/AdobeStock_135096108.jpeg";
 import Hero from "./Components/hero";
 import Chest from "./Components/chest";
+import Back from "./Components/back";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       </div>
       <Hero />
       <Chest/>
+      <Back/>
     </div>
   );
 }
