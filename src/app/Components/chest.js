@@ -77,7 +77,7 @@ const Chest = () => {
           Incline bench press
           </span> <br/>
           5 sets, 5 reps
-          <Video className="mt-5 mr-5 max-w-[300px]" controls={false} loop={true} autoPlay={true} src={Inclinebenchpress} />
+          <Video className="mt-5 mr-5 max-w-[300px]" controls={false} autoPlay={true} src={Inclinebenchpress} />
         </MotionDiv>
         <MotionDiv
           initial={{ opacity: 0 }}
@@ -91,7 +91,7 @@ const Chest = () => {
           Dumbbell incline press
           </span> <br/>
           5 sets, 8-10 reps
-          <Video className="mt-5 mr-5 max-w-[300px]" controls={false} loop={true} autoPlay={true} src={Dinclinebenchpress} />
+          <Video className="mt-5 mr-5 max-w-[300px]" controls={false} autoPlay={true} src={Dinclinebenchpress} />
         </MotionDiv>
       </div>
     </div>
