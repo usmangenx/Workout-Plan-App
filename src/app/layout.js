@@ -1,7 +1,10 @@
-import { Inter } from "next/font/google";
+import { Righteous } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Righteous({
+  weight: "400",
+  subsets: ["latin"],
+});
 
 export const metadata = {
   title: "David Laid Workouts",

@@ -1,6 +1,6 @@
 import Nav from "./navbar";
 import Image from "next/image";
-import HeroImage from "/public/AdobeStock_135096108.jpeg";
+import HeroImage from "/public/1459399.jpg";
 import Hero from "./Components/hero";
 import Chest from "./Components/chest";
 import Back from "./Components/back";
