@@ -1,5 +1,12 @@
 import { MotionDiv } from "./motiondiv";
 import Video from 'next-video';
+import Dumbbellrows from "/videos/AdobeStock_784395425.mov";
+import Widegrippulldown from "/videos/AdobeStock_426100198.mov";
+import Cablerow from "/videos/AdobeStock_271855361.mov";
+import Chinup from "/videos/AdobeStock_167382752.mov";
+import Barshurgs from "/videos/AdobeStock_731756494.mov";
+import Cablehurgs from "/videos/AdobeStock_671290143.mov";
+import Closegrippuldown from "/videos/AdobeStock_419164933.mov";
 
 const Back
  = () => {
@@ -76,7 +83,91 @@ const Back
           Dumbbell rows
           </span> <br/>
           4 sets, 6-8 reps
-          <Video className="mt-5 mr-5 max-w-[300px]"/>
+          <Video className="mt-5 mr-5 max-w-[300px]" src={Dumbbellrows}/>
+        </MotionDiv>
+        <MotionDiv
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0.5, duration: 0.3 }}
+          viewport={{ once: false }}
+          className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
+          style={{ transitionDelay: "300ms" }}
+        >
+          <span className="text-[#A020F0]">
+          Seated wide-grip lat pulldown
+          </span> <br/>
+          4 sets, 6-8 reps
+          <Video className="mt-5 mr-5 max-w-[300px]" src={Widegrippulldown}/>
+        </MotionDiv>
+        <MotionDiv
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0.5, duration: 0.3 }}
+          viewport={{ once: false }}
+          className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
+          style={{ transitionDelay: "300ms" }}
+        >
+          <span className="text-[#A020F0]">
+          Seated cable row
+          </span> <br/>
+          4 sets, 8-10 reps
+          <Video className="mt-5 mr-5 max-w-[300px]" src={Cablerow}/>
+        </MotionDiv>
+        <MotionDiv
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0.5, duration: 0.3 }}
+          viewport={{ once: false }}
+          className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
+          style={{ transitionDelay: "300ms" }}
+        >
+          <span className="text-[#A020F0]">
+          Close-grip chin-up
+          </span> <br/>
+          4 sets, until failure
+          <Video className="mt-5 mr-5 max-w-[300px]" src={Chinup}/>
+        </MotionDiv>
+        <MotionDiv
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0.5, duration: 0.3 }}
+          viewport={{ once: false }}
+          className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
+          style={{ transitionDelay: "300ms" }}
+        >
+          <span className="text-[#A020F0]">
+          Hex bar shrug
+          </span> <br/>
+          4 sets, 8-10 reps
+          <Video className="mt-5 mr-5 max-w-[300px]" src={Barshurgs}/>
+        </MotionDiv>
+        <MotionDiv
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0.5, duration: 0.3 }}
+          viewport={{ once: false }}
+          className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
+          style={{ transitionDelay: "300ms" }}
+        >
+          <span className="text-[#A020F0]">
+          Cable shrug
+          </span> <br/>
+          4 sets, 8-10 reps
+          <Video className="mt-5 mr-5 max-w-[300px]" src={Cablehurgs}/>
+        </MotionDiv>
+        <MotionDiv
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0.5, duration: 0.3 }}
+          viewport={{ once: false }}
+          className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
+          style={{ transitionDelay: "300ms" }}
+        >
+          <span className="text-[#A020F0]">
+          Close grip lat pulldown
+          </span> <br/>
+          4 sets, 6-10 reps
+          <Video className="mt-5 mr-5 max-w-[300px]" src={Closegrippuldown}/>
         </MotionDiv>
         </div>
         </div>
