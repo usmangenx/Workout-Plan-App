@@ -5,6 +5,8 @@ import Hero from "./Components/hero";
 import Chest from "./Components/chest";
 import Back from "./Components/back";
 import Shoulder from "./Components/shoulder";
+import Leg from "./Components/leg";
+import Arm from "./Components/arm";
 
 export default function Home() {
   return (
@@ -23,6 +25,8 @@ export default function Home() {
       <Chest/>
       <Back/>
       <Shoulder/>
+      <Leg/>
+      <Arm/>
     </div>
   );
 }

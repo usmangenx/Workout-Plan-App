@@ -1,10 +1,12 @@
 import { MotionDiv } from "./motiondiv";
 import Video from "next-video";
-import Inclinebenchpress from "/videos/AdobeStock_295874876.mov";
-import Dinclinebenchpress from "/videos/AdobeStock_413826858.mov";
-import Flatbenchpress from "/videos/AdobeStock_703093192.mov";
+import Hamercurls from "/videos/AdobeStock_767706278.mov";
+import Dips from "/videos/AdobeStock_278055135.mov";
+import Ezbarcurls from "/videos/AdobeStock_314713082.mov";
+import Tricablepushdown from "/videos/AdobeStock_200978518.mov";
+import Barbellcurl from "/videos/AdobeStock_708078766.mov";
 
-const Chest = () => {
+const Arm = () => {
   return (
     <div className="flex pl-3 pt-5 space-x-3 md:space-x-10">
       <div className="flex flex-col items-center">
@@ -45,14 +47,14 @@ const Chest = () => {
           </svg>
           <span
             className="absolute left-0 top-0 h-full w-full home-campaign-glowing-icon-glow-1 z-3"
-            style={{ backgroundColor: "#008000", filter: "blur(17px)" }}
+            style={{ backgroundColor: "#7ee4e7", filter: "blur(17px)" }}
           ></span>
         </MotionDiv>
         <MotionDiv
           initial={{ height: 0 }}
           whileInView={{ height: "100%" }}
           transition={{ duration: 0.4, delay: 0.6 }}
-          className=" h-full w-[3px] mt-7 rounded-md bg-gradient-to-b from-[#7ee787]"
+          className=" h-full w-[3px] mt-7 rounded-md bg-gradient-to-b from-[#7ee4e7]"
         ></MotionDiv>
       </div>
       <div className="md:w-10/12 mb-24">
@@ -64,7 +66,7 @@ const Chest = () => {
           className="text-[30px] md:text-2xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
           style={{ transitionDelay: "200ms" }}
         >
-          Chest Workout
+          Arm Workout
         </MotionDiv>
         <MotionDiv
           initial={{ opacity: 0 }}
@@ -74,9 +76,12 @@ const Chest = () => {
           className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
           style={{ transitionDelay: "300ms" }}
         >
-          <span className="text-[#7ee787]">Incline bench press</span> <br />
-          5 sets, 5 reps
-          <Video className="mt-5 mr-5 max-w-[300px]" src={Inclinebenchpress} />
+          <span className="text-[#7ee4e7]">
+          Seated Hammer Curl
+            </span>
+          <br />
+          3 sets, 10, 8, 6 reps
+          <Video className="mt-5 mr-5 max-w-[300px]" src={Hamercurls} />
         </MotionDiv>
         <MotionDiv
           initial={{ opacity: 0 }}
@@ -86,9 +91,12 @@ const Chest = () => {
           className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
           style={{ transitionDelay: "300ms" }}
         >
-          <span className="text-[#7ee787]">Dumbbell incline press</span> <br />
-          5 sets, 8-10 reps
-          <Video className="mt-5 mr-5 max-w-[300px]" src={Dinclinebenchpress} />
+          <span className="text-[#7ee4e7]">
+          Bodyweight dips
+            </span>
+          <br />
+          3 sets, 15 reps
+          <Video className="mt-5 mr-5 max-w-[300px]" src={Dips} />
         </MotionDiv>
         <MotionDiv
           initial={{ opacity: 0 }}
@@ -98,9 +106,12 @@ const Chest = () => {
           className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
           style={{ transitionDelay: "300ms" }}
         >
-          <span className="text-[#7ee787]">Flat bench press</span> <br />
-          5 sets, 6-8 reps
-          <Video className="mt-5 mr-5 max-w-[300px]" src={Flatbenchpress} />
+          <span className="text-[#7ee4e7]">
+          EZ bar curls
+            </span>
+          <br />
+          3 sets, 10, 8, 6 reps
+          <Video className="mt-5 mr-5 max-w-[300px]" src={Ezbarcurls} />
         </MotionDiv>
         <MotionDiv
           initial={{ opacity: 0 }}
@@ -110,25 +121,31 @@ const Chest = () => {
           className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
           style={{ transitionDelay: "300ms" }}
         >
-          <span className="text-[#7ee787]">Incline bench press</span> <br />
-          as many reps as possible
-          
+          <span className="text-[#7ee4e7]">
+          Triceps cable pushdown
+            </span>
+          <br />
+          3 sets, 10, 8, 6 reps
+          <Video className="mt-5 mr-5 max-w-[300px]" src={Tricablepushdown} />
         </MotionDiv>
         <MotionDiv
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.3 }}
           viewport={{ once: false }}
-          className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb- font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
+          className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
           style={{ transitionDelay: "300ms" }}
         >
-          <span className="text-[#7ee787]">Flat bench press</span> <br />
-          as many reps as possible
-          
+          <span className="text-[#7ee4e7]">
+          Barbell curl
+            </span>
+          <br />
+          1 burnout set
+          <Video className="mt-5 mr-5 max-w-[300px]" src={Barbellcurl} />
         </MotionDiv>
       </div>
     </div>
   );
 };
 
-export default Chest;
+export default Arm;

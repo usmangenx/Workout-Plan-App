@@ -6,7 +6,7 @@ const Hero = () => {
           <span className="relative z-[11]">
             <svg
               aria-hidden="true"
-              height=""
+              height="30"
               viewBox="0 0 24 24"
               fill="currentColor"
               version="1.1"
