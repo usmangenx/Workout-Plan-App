@@ -11,7 +11,7 @@ const Chest = () => {
         <MotionDiv
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.3 }}
+          transition={{ duration: 0.1 }}
           viewport={{ once: false }}
           className="relative"
         >
