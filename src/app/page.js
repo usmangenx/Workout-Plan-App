@@ -4,6 +4,7 @@ import HeroImage from "/public/1459399.jpg";
 import Hero from "./Components/hero";
 import Chest from "./Components/chest";
 import Back from "./Components/back";
+import Shoulder from "./Components/shoulder";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Hero />
       <Chest/>
       <Back/>
+      <Shoulder/>
     </div>
   );
 }
