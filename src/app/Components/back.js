@@ -60,10 +60,17 @@ const Back
           className=" h-full w-[3px] mt-7 rounded-md bg-gradient-to-b from-[#A020F0]"
         ></MotionDiv>
       </div>
-      <div id="back" className="md:w-10/12 mb-24 text-[30px] md:text-7xl font-medium text-white">
-        
+      <div id="back" className="md:w-10/12 mb-24 ">
+        <MotionDiv
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0.4, duration: 0.3 }}
+          viewport={{ once: false }}
+          className="text-[30px] md:text-7xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
+          style={{ transitionDelay: "200ms" }}
+        >
           Back Workout
-       
+        </MotionDiv>
         <MotionDiv
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
