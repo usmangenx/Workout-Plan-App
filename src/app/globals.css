@@ -6,4 +6,6 @@
   background-color: #030303;
 }
 
-
+html {
+  scroll-behavior: smooth;
+}

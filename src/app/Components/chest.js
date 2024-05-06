@@ -55,7 +55,7 @@ const Chest = () => {
           className=" h-full w-[3px] mt-7 rounded-md bg-gradient-to-b from-[#7ee787]"
         ></MotionDiv>
       </div>
-      <div className="md:w-10/12 mb-24">
+      <div id="chest" className="md:w-10/12 mb-24">
         <MotionDiv
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
