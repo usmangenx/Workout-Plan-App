@@ -66,7 +66,7 @@ const Shoulder = () => {
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.3 }}
           viewport={{ once: false }}
-          className="text-[30px] md:text-2xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
+          className="text-[30px] md:text-7xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
           style={{ transitionDelay: "200ms" }}
         >
           Shoulder Workout
@@ -83,7 +83,7 @@ const Shoulder = () => {
           Seated dumbbell press
             </span> <br />
             4 sets, 8-10 reps
-          <Video className="mt-5 mr-5 max-w-[300px]" src={Seateddumblepress} />
+          <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Seateddumblepress} />
         </MotionDiv>
         <MotionDiv
           initial={{ opacity: 0 }}
@@ -97,7 +97,7 @@ const Shoulder = () => {
           Seated behind the neck overhead press
             </span> <br />
             4 sets, 8-10 reps
-          <Video className="mt-5 mr-5 max-w-[300px]" src={Behindneckpress} />
+          <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Behindneckpress} />
         </MotionDiv>
         <MotionDiv
           initial={{ opacity: 0 }}
@@ -111,7 +111,7 @@ const Shoulder = () => {
           Dumbbell lateral raise
             </span> <br />
             4 sets, 8-10 reps
-          <Video className="mt-5 mr-5 max-w-[300px]" src={Dumbleraise} />
+          <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Dumbleraise} />
         </MotionDiv>
         <MotionDiv
           initial={{ opacity: 0 }}
@@ -125,7 +125,7 @@ const Shoulder = () => {
           Seated machine overhead press
             </span> <br />
             4 sets, 8-10 reps
-          <Video className="mt-5 mr-5 max-w-[300px]" src={Machineoverheadpress} />
+          <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Machineoverheadpress} />
         </MotionDiv>
         <MotionDiv
           initial={{ opacity: 0 }}
@@ -139,7 +139,7 @@ const Shoulder = () => {
           Cable lateral raise
             </span> <br />
             4 sets, 10-12 reps
-          <Video className="mt-5 mr-5 max-w-[300px]" src={Cableliterlraise} />
+          <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Cableliterlraise} />
         </MotionDiv>
         <MotionDiv
           initial={{ opacity: 0 }}
@@ -153,7 +153,7 @@ const Shoulder = () => {
           Front plate raise
             </span> <br />
             4 sets, 10-12 reps
-          <Video className="mt-5 mr-5 max-w-[300px]" src={Frontplateraise} />
+          <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Frontplateraise} />
         </MotionDiv>
         <MotionDiv
           initial={{ opacity: 0 }}
@@ -167,7 +167,7 @@ const Shoulder = () => {
           Rear delt seated fly machine
             </span> <br />
             4 sets, 10-12 reps
-          <Video className="mt-5 mr-5 max-w-[300px]" src={Reverseflymachine} />
+          <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Reverseflymachine} />
         </MotionDiv>
         <MotionDiv
           initial={{ opacity: 0 }}
@@ -181,7 +181,7 @@ const Shoulder = () => {
           Rear delt seated cable row
             </span> <br />
             4 sets, 10-12 reps
-          <Video className="mt-5 mr-5 max-w-[300px]" src={Frontcablepull} />
+          <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Frontcablepull} />
         </MotionDiv>
       </div>
     </div>

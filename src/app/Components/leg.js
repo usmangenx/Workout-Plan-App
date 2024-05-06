@@ -61,7 +61,7 @@ const Leg = () => {
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.3 }}
           viewport={{ once: false }}
-          className="text-[30px] md:text-2xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
+          className="text-[30px] md:text-7xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
           style={{ transitionDelay: "200ms" }}
         >
           Leg Workout
@@ -78,7 +78,7 @@ const Leg = () => {
           Barbell squat with pause
             </span> <br />
             4 sets, 3 reps
-          <Video className="mt-5 mr-5 max-w-[300px]" src={Barbelsquats} />
+          <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Barbelsquats} />
         </MotionDiv>
         <MotionDiv
           initial={{ opacity: 0 }}
@@ -105,7 +105,7 @@ const Leg = () => {
           Machine leg press
             </span> <br />
             3 sets, 20 reps
-            <Video className="mt-5 mr-5 max-w-[300px]" src={Machinelegpress} />
+            <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Machinelegpress} />
         </MotionDiv>
         <MotionDiv
           initial={{ opacity: 0 }}
@@ -119,7 +119,7 @@ const Leg = () => {
           Lying hamstring curls
             </span> <br />
             5 sets, 10 reps
-            <Video className="mt-5 mr-5 max-w-[300px]" src={Lyinglegcurls} />
+            <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Lyinglegcurls} />
         </MotionDiv>
         </div>
         </div>

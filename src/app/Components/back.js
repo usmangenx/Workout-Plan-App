@@ -66,7 +66,7 @@ const Back
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.3 }}
           viewport={{ once: false }}
-          className="text-[30px] md:text-2xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
+          className="text-[30px] md:text-7xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
           style={{ transitionDelay: "200ms" }}
         >
           Back Workout
@@ -83,7 +83,7 @@ const Back
           Dumbbell rows
           </span> <br/>
           4 sets, 6-8 reps
-          <Video className="mt-5 mr-5 max-w-[300px]" src={Dumbbellrows}/>
+          <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Dumbbellrows}/>
         </MotionDiv>
         <MotionDiv
           initial={{ opacity: 0 }}
@@ -97,7 +97,7 @@ const Back
           Seated wide-grip lat pulldown
           </span> <br/>
           4 sets, 6-8 reps
-          <Video className="mt-5 mr-5 max-w-[300px]" src={Widegrippulldown}/>
+          <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Widegrippulldown}/>
         </MotionDiv>
         <MotionDiv
           initial={{ opacity: 0 }}
@@ -111,7 +111,7 @@ const Back
           Seated cable row
           </span> <br/>
           4 sets, 8-10 reps
-          <Video className="mt-5 mr-5 max-w-[300px]" src={Cablerow}/>
+          <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Cablerow}/>
         </MotionDiv>
         <MotionDiv
           initial={{ opacity: 0 }}
@@ -125,7 +125,7 @@ const Back
           Close-grip chin-up
           </span> <br/>
           4 sets, until failure
-          <Video className="mt-5 mr-5 max-w-[300px]" src={Chinup}/>
+          <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Chinup}/>
         </MotionDiv>
         <MotionDiv
           initial={{ opacity: 0 }}
@@ -139,7 +139,7 @@ const Back
           Hex bar shrug
           </span> <br/>
           4 sets, 8-10 reps
-          <Video className="mt-5 mr-5 max-w-[300px]" src={Barshurgs}/>
+          <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Barshurgs}/>
         </MotionDiv>
         <MotionDiv
           initial={{ opacity: 0 }}
@@ -153,7 +153,7 @@ const Back
           Cable shrug
           </span> <br/>
           4 sets, 8-10 reps
-          <Video className="mt-5 mr-5 max-w-[300px]" src={Cablehurgs}/>
+          <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Cablehurgs}/>
         </MotionDiv>
         <MotionDiv
           initial={{ opacity: 0 }}
@@ -167,7 +167,7 @@ const Back
           Close grip lat pulldown
           </span> <br/>
           4 sets, 6-10 reps
-          <Video className="mt-5 mr-5 max-w-[300px]" src={Closegrippuldown}/>
+          <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Closegrippuldown}/>
         </MotionDiv>
         </div>
         </div>

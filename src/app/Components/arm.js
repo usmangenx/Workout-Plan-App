@@ -63,7 +63,7 @@ const Arm = () => {
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.3 }}
           viewport={{ once: false }}
-          className="text-[30px] md:text-2xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
+          className="text-[30px] md:text-7xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
           style={{ transitionDelay: "200ms" }}
         >
           Arm Workout
@@ -81,7 +81,7 @@ const Arm = () => {
             </span>
           <br />
           3 sets, 10, 8, 6 reps
-          <Video className="mt-5 mr-5 max-w-[300px]" src={Hamercurls} />
+          <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Hamercurls} />
         </MotionDiv>
         <MotionDiv
           initial={{ opacity: 0 }}
@@ -96,7 +96,7 @@ const Arm = () => {
             </span>
           <br />
           3 sets, 15 reps
-          <Video className="mt-5 mr-5 max-w-[300px]" src={Dips} />
+          <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Dips} />
         </MotionDiv>
         <MotionDiv
           initial={{ opacity: 0 }}
@@ -111,7 +111,7 @@ const Arm = () => {
             </span>
           <br />
           3 sets, 10, 8, 6 reps
-          <Video className="mt-5 mr-5 max-w-[300px]" src={Ezbarcurls} />
+          <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Ezbarcurls} />
         </MotionDiv>
         <MotionDiv
           initial={{ opacity: 0 }}
@@ -126,7 +126,7 @@ const Arm = () => {
             </span>
           <br />
           3 sets, 10, 8, 6 reps
-          <Video className="mt-5 mr-5 max-w-[300px]" src={Tricablepushdown} />
+          <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Tricablepushdown} />
         </MotionDiv>
         <MotionDiv
           initial={{ opacity: 0 }}
@@ -141,7 +141,7 @@ const Arm = () => {
             </span>
           <br />
           1 burnout set
-          <Video className="mt-5 mr-5 max-w-[300px]" src={Barbellcurl} />
+          <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Barbellcurl} />
         </MotionDiv>
       </div>
     </div>

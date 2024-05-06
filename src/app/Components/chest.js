@@ -61,7 +61,7 @@ const Chest = () => {
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.3 }}
           viewport={{ once: false }}
-          className="text-[30px] md:text-2xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
+          className="text-[30px] md:text-7xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
           style={{ transitionDelay: "200ms" }}
         >
           Chest Workout
@@ -76,7 +76,7 @@ const Chest = () => {
         >
           <span className="text-[#7ee787]">Incline bench press</span> <br />
           5 sets, 5 reps
-          <Video className="mt-5 mr-5 max-w-[300px]" src={Inclinebenchpress} />
+          <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Inclinebenchpress} />
         </MotionDiv>
         <MotionDiv
           initial={{ opacity: 0 }}
@@ -88,7 +88,7 @@ const Chest = () => {
         >
           <span className="text-[#7ee787]">Dumbbell incline press</span> <br />
           5 sets, 8-10 reps
-          <Video className="mt-5 mr-5 max-w-[300px]" src={Dinclinebenchpress} />
+          <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Dinclinebenchpress} />
         </MotionDiv>
         <MotionDiv
           initial={{ opacity: 0 }}
@@ -100,7 +100,7 @@ const Chest = () => {
         >
           <span className="text-[#7ee787]">Flat bench press</span> <br />
           5 sets, 6-8 reps
-          <Video className="mt-5 mr-5 max-w-[300px]" src={Flatbenchpress} />
+          <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Flatbenchpress} />
         </MotionDiv>
         <MotionDiv
           initial={{ opacity: 0 }}
