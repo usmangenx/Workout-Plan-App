@@ -1,4 +1,4 @@
-import { MotionDiv } from "./motiondiv";
+
 import Video from "next-video";
 import Hamercurls from "/videos/AdobeStock_767706278.mov";
 import Dips from "/videos/AdobeStock_278055135.mov";
@@ -10,11 +10,8 @@ const Arm = () => {
   return (
     <div className="flex pl-3 pt-5 space-x-3 md:space-x-10">
       <div className="flex flex-col items-center">
-        <MotionDiv
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.3 }}
-          viewport={{ once: false }}
+        <div
+       
           className="relative"
         >
           <svg
@@ -49,32 +46,24 @@ const Arm = () => {
             className="absolute left-0 top-0 h-full w-full home-campaign-glowing-icon-glow-1 z-3"
             style={{ backgroundColor: "#7ee4e7", filter: "blur(17px)" }}
           ></span>
-        </MotionDiv>
-        <MotionDiv
-          initial={{ height: 0 }}
-          whileInView={{ height: "100%" }}
-          transition={{ duration: 0.4, delay: 0.6 }}
+        </div>
+        <div
+          
           className=" h-full w-[3px] mt-7 rounded-md bg-gradient-to-b from-[#7ee4e7]"
-        ></MotionDiv>
+        ></div>
       </div>
-      <div className="md:w-10/12 mb-24">
-        <MotionDiv
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ delay: 0.4, duration: 0.3 }}
-          viewport={{ once: false }}
+      <div id="arm" className="md:w-10/12 mb-24">
+        <div
+         
           className="text-[30px] md:text-7xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
-          style={{ transitionDelay: "200ms" }}
+          
         >
           Arm Workout
-        </MotionDiv>
-        <MotionDiv
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ delay: 0.5, duration: 0.3 }}
-          viewport={{ once: false }}
+        </div>
+        <div
+         
           className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
-          style={{ transitionDelay: "300ms" }}
+          
         >
           <span className="text-[#7ee4e7]">
           Seated Hammer Curl
@@ -82,14 +71,11 @@ const Arm = () => {
           <br />
           3 sets, 10, 8, 6 reps
           <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Hamercurls} />
-        </MotionDiv>
-        <MotionDiv
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ delay: 0.5, duration: 0.3 }}
-          viewport={{ once: false }}
+        </div>
+        <div
+          
           className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
-          style={{ transitionDelay: "300ms" }}
+         
         >
           <span className="text-[#7ee4e7]">
           Bodyweight dips
@@ -97,14 +83,11 @@ const Arm = () => {
           <br />
           3 sets, 15 reps
           <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Dips} />
-        </MotionDiv>
-        <MotionDiv
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ delay: 0.5, duration: 0.3 }}
-          viewport={{ once: false }}
+        </div>
+        <div
+        
           className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
-          style={{ transitionDelay: "300ms" }}
+          
         >
           <span className="text-[#7ee4e7]">
           EZ bar curls
@@ -112,14 +95,11 @@ const Arm = () => {
           <br />
           3 sets, 10, 8, 6 reps
           <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Ezbarcurls} />
-        </MotionDiv>
-        <MotionDiv
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ delay: 0.5, duration: 0.3 }}
-          viewport={{ once: false }}
+        </div>
+        <div
+          
           className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
-          style={{ transitionDelay: "300ms" }}
+         
         >
           <span className="text-[#7ee4e7]">
           Triceps cable pushdown
@@ -127,14 +107,11 @@ const Arm = () => {
           <br />
           3 sets, 10, 8, 6 reps
           <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Tricablepushdown} />
-        </MotionDiv>
-        <MotionDiv
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ delay: 0.5, duration: 0.3 }}
-          viewport={{ once: false }}
+        </div>
+        <div
+         
           className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
-          style={{ transitionDelay: "300ms" }}
+         
         >
           <span className="text-[#7ee4e7]">
           Barbell curl
@@ -142,7 +119,7 @@ const Arm = () => {
           <br />
           1 burnout set
           <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Barbellcurl} />
-        </MotionDiv>
+        </div>
       </div>
     </div>
   );

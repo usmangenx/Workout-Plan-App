@@ -1,4 +1,4 @@
-import { MotionDiv } from "./motiondiv";
+
 import Video from "next-video";
 import Barbelsquats from "/videos/AdobeStock_617984435.mov";
 import Machinelegpress from "/videos/AdobeStock_169194436.mov";
@@ -8,11 +8,8 @@ const Leg = () => {
   return (
     <div className="flex pl-3 pt-5 space-x-3 md:space-x-10">
       <div className="flex flex-col items-center">
-        <MotionDiv
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.3 }}
-          viewport={{ once: false }}
+        <div
+         
           className="relative"
         >
           <svg
@@ -47,80 +44,63 @@ const Leg = () => {
             className="absolute left-0 top-0 h-full w-full home-campaign-glowing-icon-glow-1 z-3"
             style={{ backgroundColor: "#e77e7e", filter: "blur(17px)" }}
           ></span>
-        </MotionDiv>
-        <MotionDiv
-          initial={{ height: 0 }}
-          whileInView={{ height: "100%" }}
-          transition={{ duration: 0.4, delay: 0.6 }}
+        </div>
+        <div
+          
           className=" h-full w-[3px] mt-7 rounded-md bg-gradient-to-b from-[#e77e7e]"
-        ></MotionDiv>
+        ></div>
       </div>
-      <div className="md:w-10/12 mb-24">
-        <MotionDiv
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ delay: 0.4, duration: 0.3 }}
-          viewport={{ once: false }}
+      <div id="leg" className="md:w-10/12 mb-24">
+        <div
+          
           className="text-[30px] md:text-7xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
-          style={{ transitionDelay: "200ms" }}
+          
         >
           Leg Workout
-        </MotionDiv>
-        <MotionDiv
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ delay: 0.5, duration: 0.3 }}
-          viewport={{ once: false }}
+        </div>
+        <div
+         
           className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
-          style={{ transitionDelay: "300ms" }}
+        
         >
           <span className="text-[#e77e7e]">
           Barbell squat with pause
             </span> <br />
             4 sets, 3 reps
           <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Barbelsquats} />
-        </MotionDiv>
-        <MotionDiv
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ delay: 0.5, duration: 0.3 }}
-          viewport={{ once: false }}
+        </div>
+        <div
+         
           className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
-          style={{ transitionDelay: "300ms" }}
+        
         >
           <span className="text-[#e77e7e]">
           Barbell squat
             </span> <br />
             6 sets, 5 reps
-        </MotionDiv>
-        <MotionDiv
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ delay: 0.5, duration: 0.3 }}
-          viewport={{ once: false }}
+        </div>
+        <div
+          
           className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
-          style={{ transitionDelay: "300ms" }}
+          
         >
           <span className="text-[#e77e7e]">
           Machine leg press
             </span> <br />
             3 sets, 20 reps
             <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Machinelegpress} />
-        </MotionDiv>
-        <MotionDiv
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ delay: 0.5, duration: 0.3 }}
-          viewport={{ once: false }}
+        </div>
+        <div
+          
           className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
-          style={{ transitionDelay: "300ms" }}
+         
         >
           <span className="text-[#e77e7e]">
           Lying hamstring curls
             </span> <br />
             5 sets, 10 reps
             <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Lyinglegcurls} />
-        </MotionDiv>
+        </div>
         </div>
         </div>
   )
