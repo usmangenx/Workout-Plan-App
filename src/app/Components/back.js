@@ -1,12 +1,12 @@
 
 import Video from 'next-video';
-import Dumbbellrows from "/videos/AdobeStock_784395425.mov";
 import Widegrippulldown from "/videos/AdobeStock_426100198.mov";
 import Cablerow from "/videos/AdobeStock_271855361.mov";
 import Chinup from "/videos/AdobeStock_167382752.mov";
 import Barshurgs from "/videos/AdobeStock_731756494.mov";
 import Cablehurgs from "/videos/AdobeStock_671290143.mov";
 import Closegrippuldown from "/videos/AdobeStock_419164933.mov";
+import Image from "next/image";
 
 const Back
  = () => {
@@ -72,7 +72,14 @@ const Back
           Dumbbell rows
           </span> <br/>
           4 sets, 6-8 reps
-          <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Dumbbellrows}/>
+          <Image
+          priority={true}
+          src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzhlaDk3aGpkZW9sbzhkeGo2aTc5aXY3bHV4Mmw5YmJrNnl3aGl0NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZHgxkELFWPXbkeFze0/giphy.gif"
+          width={1000}
+          height={1000}
+          alt="Hero picture"
+          className=""
+        />
         </div>
         <div
          

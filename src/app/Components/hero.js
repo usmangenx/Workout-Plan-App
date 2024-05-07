@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="flex">
       <div>
-        <div className="mx-auto ml-[14px] mb-3 mt-10">
+        <div className="mx-auto  ml-[14px] mb-3 mt-10">
           <span className="relative z-[11]">
             <svg
               aria-hidden="true"
@@ -35,7 +35,7 @@ const Hero = () => {
           ></div>
         </div>
       </div>
-      <div className="flex flex-col mx-auto ">
+      <div className="flex flex-col md:mx-auto ">
         <h1 className="text-white pl-4 pt-9 text-2xl font-extrabold">
           Build Yourself With Us!
         </h1>
