@@ -1,7 +1,6 @@
-import Video from "next-video";
-import Inclinebenchpress from "/videos/AdobeStock_295874876.mov";
-import Dinclinebenchpress from "/videos/AdobeStock_413826858.mov";
-import Flatbenchpress from "/videos/AdobeStock_703093192.mov";
+
+import Image from "next/image";
+
 
 const Chest = () => {
   return (
@@ -48,39 +47,53 @@ const Chest = () => {
           Chest Workout
         </div>
         <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
-          <span className="text-[#7ee787]">Incline bench press</span> <br />
-          5 sets, 5 reps
-          <Video
-            className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]"
-            src={Inclinebenchpress}
-          />
-        </div>
-        <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
-          <span className="text-[#7ee787]">Dumbbell incline press</span> <br />
-          5 sets, 8-10 reps
-          <Video
-            className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]"
-            src={Dinclinebenchpress}
-          />
-        </div>
-        <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
-          <span className="text-[#7ee787]">Flat bench press</span> <br />
-          5 sets, 6-8 reps
-          <Video
-            className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]"
-            src={Flatbenchpress}
-          />
-        </div>
-        <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
-          <span className="text-[#7ee787]">Incline bench press</span> <br />
-          as many reps as possible
-        </div>
-        <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb- font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
-          <span className="text-[#7ee787]">Flat bench press</span> <br />
-          as many reps as possible
-        </div>
-      </div>
-    </div>
+  <div>
+    <span className="text-[#7ee787]">Incline bench press</span> <br />
+    <span className="text-[20px]">5 sets, 5 reps</span>
+    <Image
+      src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjFqamU3czBwaDd1MzM1NDJ0bmM1dGU5OWV5djkxMHQzazRwamw1NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NrFpQaEvVJHySMlksm/giphy.gif"
+      width={500}
+      height={500}
+      alt="Incline bench press"
+      unoptimized={true}
+      className=""
+    />
+  </div>
+  <div>
+    <span className="text-[#7ee787]">Dumbbell incline press</span> <br />
+    <span className="text-[20px]">5 sets, 8-10 reps</span>
+    <Image
+      src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWN5cTF3cDhscG5td2RlazdhMHVhMDdtZGpoOGp1ZmZ0MjJ0ZTZwbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qoS97GB5ddCICS93kF/giphy.gif"
+      width={500}
+      height={500}
+      alt="Dumbbell incline press"
+      unoptimized={true}
+      className=""
+    />
+  </div>
+  <div>
+    <span className="text-[#7ee787]">Flat bench press</span> <br />
+    <span className="text-[20px]">5 sets, 6-8 reps</span>
+    <Image
+      src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHk2NGEzenNpZjV3eWJkd3Ntdzg1NGlzaWpjMzV5bzd1cWhvbGIyYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0uciw9RFvWmjKOacYY/giphy-downsized-large.gif"
+      width={500}
+      height={500}
+      alt="Flat bench press"
+      unoptimized={true}
+      className=""
+    />
+  </div>
+  <div>
+    <span className="text-[#7ee787]">Incline bench press</span> <br />
+    <span className="text-[20px]">as many reps as possible</span>
+  </div>
+  <div>
+    <span className="text-[#7ee787]">Flat bench press</span> <br />
+    <span className="text-[20px]">as many reps as possible</span>
+  </div>
+</div>
+</div>
+</div>
   );
 };
 

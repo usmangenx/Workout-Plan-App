@@ -1,11 +1,4 @@
 
-import Video from 'next-video';
-import Widegrippulldown from "/videos/AdobeStock_426100198.mov";
-import Cablerow from "/videos/AdobeStock_271855361.mov";
-import Chinup from "/videos/AdobeStock_167382752.mov";
-import Barshurgs from "/videos/AdobeStock_731756494.mov";
-import Cablehurgs from "/videos/AdobeStock_671290143.mov";
-import Closegrippuldown from "/videos/AdobeStock_419164933.mov";
 import Image from "next/image";
 
 const Back
@@ -63,92 +56,94 @@ const Back
         >
           Back Workout
         </div>
-        <div
-          
-          className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
-        
-        >
-          <span className="text-[#A020F0]">
-          Dumbbell rows
-          </span> <br/>
-          4 sets, 6-8 reps
-          <Image
-          priority={true}
-          src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzhlaDk3aGpkZW9sbzhkeGo2aTc5aXY3bHV4Mmw5YmJrNnl3aGl0NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZHgxkELFWPXbkeFze0/giphy.gif"
-          width={1000}
-          height={1000}
-          alt="Hero picture"
-          className=""
-        />
-        </div>
-        <div
-         
-          className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
-         
-        >
-          <span className="text-[#A020F0]">
-          Seated wide-grip lat pulldown
-          </span> <br/>
-          4 sets, 6-8 reps
-          <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Widegrippulldown}/>
-        </div>
-        <div
-          
-          className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
-        
-        >
-          <span className="text-[#A020F0]">
-          Seated cable row
-          </span> <br/>
-          4 sets, 8-10 reps
-          <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Cablerow}/>
-        </div>
-        <div
-          
-          className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
-         
-        >
-          <span className="text-[#A020F0]">
-          Close-grip chin-up
-          </span> <br/>
-          4 sets, until failure
-          <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Chinup}/>
-        </div>
-        <div
-         
-          className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
-       
-        >
-          <span className="text-[#A020F0]">
-          Hex bar shrug
-          </span> <br/>
-          4 sets, 8-10 reps
-          <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Barshurgs}/>
-        </div>
-        <div
-        
-          className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
-         
-        >
-          <span className="text-[#A020F0]">
-          Cable shrug
-          </span> <br/>
-          4 sets, 8-10 reps
-          <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Cablehurgs}/>
-        </div>
-        <div
-         
-          className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"
-         
-        >
-          <span className="text-[#A020F0]">
-          Close grip lat pulldown
-          </span> <br/>
-          4 sets, 6-10 reps
-          <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Closegrippuldown}/>
-        </div>
-        </div>
-        </div>
+        <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item">
+  <div>
+    <span className="text-[#A020F0]">Dumbbell rows</span> <br/>
+    <span className="text-[20px]">4 sets, 6-8 reps</span>
+    <Image
+      src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzhlaDk3aGpkZW9sbzhkeGo2aTc5aXY3bHV4Mmw5YmJrNnl3aGl0NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZHgxkELFWPXbkeFze0/giphy.gif"
+      width={500}
+      height={500}
+      alt="Dumbbell rows"
+      unoptimized={true}
+      className=""
+    />
+  </div>
+  <div className="build-in-slideX-left build-in-animate">
+    <span className="text-[#A020F0]">Seated wide-grip lat pulldown</span> <br/>
+    <span className="text-[20px]">4 sets, 6-8 reps</span>
+    <Image
+      src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExandmampoY2IwNDdvcmZzNHlpYmowNHN3NmkwMXZmOHp5d3BmdTczcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Sq3guyGjZ7Sgj6TKsy/giphy.gif"
+      width={500}
+      height={500}
+      alt="Seated wide-grip lat pulldown"
+      unoptimized={true}
+      className=""
+    />
+  </div>
+  <div className="build-in-slideX-left build-in-animate">
+    <span className="text-[#A020F0]">Seated cable row</span> <br/>
+    <span className="text-[20px]">4 sets, 8-10 reps</span>
+    <Image
+      src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnZ0NmNiNnFwcGQycnpzdWdsaHo5OGs2OW5kYWRlNnM2bXMyODc0MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/znT5vdKOiZdOdyDrAS/giphy.gif"
+      width={500}
+      height={500}
+      alt="Seated cable row"
+      unoptimized={true}
+      className=""
+    />
+  </div>
+  <div className="build-in-slideX-left build-in-animate">
+    <span className="text-[#A020F0]">Close-grip chin-up</span> <br/>
+    <span className="text-[20px]">4 sets, until failure</span>
+    <Image
+      src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2cyamNuMWMyZHNpcDg0dGplbWZzdzYya25qZTBlaTVkcmprM24zNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MV76NelZ0RtWdgzdkW/giphy.gif"
+      width={500}
+      height={500}
+      alt="Close-grip chin-up"
+      unoptimized={true}
+      className=""
+    />
+  </div>
+  <div className="build-in-slideX-left build-in-animate">
+    <span className="text-[#A020F0]">Hex bar shrug</span> <br/>
+    <span className="text-[20px]">4 sets, 8-10 reps</span>
+    <Image
+      src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGlmcGR4azFrM3MxYzlya3F2Y3BkZjNiaGltOHQwdWx6Mmtkanc1MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/I9UYqjo7u2LkFqZeUh/giphy.gif"
+      width={500}
+      height={500}
+      alt="Hex bar shrug"
+      unoptimized={true}
+      className=""
+    />
+  </div>
+  <div className="build-in-slideX-left build-in-animate">
+    <span className="text-[#A020F0]">Cable shrug</span> <br/>
+    <span className="text-[20px]">4 sets, 8-10 reps</span>
+    <Image
+      src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHViODg3ZGRoaG9pb3p6b3N0aXQya2ZkbHVsejdqZWNnbHczZWM3dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Lx1RGFMxa6zQPWBkb0/giphy.gif"
+      width={500}
+      height={500}
+      alt="Cable shrug"
+      unoptimized={true}
+      className=""
+    />
+  </div>
+  <div className="build-in-slideX-left build-in-animate">
+    <span className="text-[#A020F0]">Close grip lat pulldown</span> <br/>
+    <span className="text-[20px]">4 sets, 6-10 reps</span>
+    <Image
+      src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2draGxrcmZwbHRqamx6YzN0dnM0YXQzMjNoNm16aDhrcnA0b2V2cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mgHf61SU0M163gWDfp/giphy.gif"
+      width={500}
+      height={500}
+      alt="Close grip lat pulldown"
+      unoptimized={true}
+      className=""
+    />
+  </div>
+</div>
+</div>
+</div>
         
   )
 }
