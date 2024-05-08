@@ -5,6 +5,7 @@ import Dips from "/videos/AdobeStock_278055135.mov";
 import Ezbarcurls from "/videos/AdobeStock_314713082.mov";
 import Tricablepushdown from "/videos/AdobeStock_200978518.mov";
 import Barbellcurl from "/videos/AdobeStock_708078766.mov";
+import Image from "next/image";
 
 const Arm = () => {
   return (
@@ -46,7 +47,7 @@ const Arm = () => {
     </div>
     <div className="h-full w-[3px] mt-7 rounded-md bg-gradient-to-b from-[#7ee4e7]"></div>
   </div>
-  <div id="arm" className="md:w-10/12 pr-4 mb-24">
+  <div id="arm" className="md:w-10/12 pr-8 mb-24">
     <div className="text-[30px] md:text-7xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
       Arm Workout
     </div>
@@ -54,31 +55,66 @@ const Arm = () => {
       <span className="text-[#7ee4e7]">Seated Hammer Curl</span>
       <br />
       <span className="text-[20px]">3 sets, 10, 8, 6 reps</span>
-      <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Hamercurls} />
+      <Image
+          src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjlkMXJteXBpenZmZjQxNXZzejF3Zjc2NTF0aHdiZmNpM2RtOHAydSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZLeQKMOYvI0SBUOxP0/giphy.gif"
+          width={500}
+          height={500}
+          alt="Seated Hammer Curl"
+          unoptimized={true}
+          className="mt-3 mb-3"
+        />
     </div>
     <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
       <span className="text-[#7ee4e7]">Bodyweight dips</span>
       <br />
       <span className="text-[20px]">3 sets, 15 reps</span>
-      <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Dips} />
+      <Image
+          src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnFkOXR4czFlMDgyaTR2aTB4dmk5NGlhaXE2ajlsaGdyMHc1enl6dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Cp39rt1ip6VGn2rVm7/giphy.gif"
+          width={500}
+          height={500}
+          alt="Bodyweight dips"
+          unoptimized={true}
+          className="mt-3 mb-3"
+        />
     </div>
     <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
       <span className="text-[#7ee4e7]">EZ bar curls</span>
       <br />
       <span className="text-[20px]">3 sets, 10, 8, 6 reps</span>
-      <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Ezbarcurls} />
+      <Image
+          src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW9raWlhOGN1OGk3Y3Q4OTk4ZzVvNHQ4amQyNjV0bzl2aTc4amVydSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RInHQOWN4ZgBk0LGA8/giphy.gif"
+          width={500}
+          height={500}
+          alt="EZ bar curls"
+          unoptimized={true}
+          className="mt-3 mb-3"
+        />
     </div>
     <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
       <span className="text-[#7ee4e7]">Triceps cable pushdown</span>
       <br />
       <span className="text-[20px]">3 sets, 10, 8, 6 reps</span>
-      <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Tricablepushdown} />
+      <Image
+          src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHd4c2IweXJ5ODk4ejRoZ3F6cWRiODZjdTc1MDN6c2Y3djJwbDBkeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Uw9m82NR68HHG3rNr4/giphy.gif"
+          width={500}
+          height={500}
+          alt="Triceps cable pushdown"
+          unoptimized={true}
+          className="mt-3 mb-3"
+        />
     </div>
     <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
       <span className="text-[#7ee4e7]">Barbell curl</span>
       <br />
       <span className="text-[20px]">1 burnout set</span>
-      <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Barbellcurl} />
+      <Image
+          src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTQ3c2F4amx6andkbWRjZ2VlM2hjaHd3bHQ0eTNicnMxcGZ4dmJmeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QknssWcBv5VgmyTvYE/giphy.gif"
+          width={500}
+          height={500}
+          alt="Barbell curl"
+          unoptimized={true}
+          className="mt-3 mb-3"
+        />
     </div>
   </div>
 </div>

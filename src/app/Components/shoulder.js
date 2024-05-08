@@ -1,11 +1,5 @@
 
-import Video from "next-video";
-import Dumbleraise from "/videos/AdobeStock_402044271.mov";
-import Machineoverheadpress from "/videos/AdobeStock_781779713.mov";
-import Cableliterlraise from "/videos/AdobeStock_731756314.mov";
-import Reverseflymachine from "/videos/AdobeStock_124150861.mov";
-import Frontplateraise from "/videos/AdobeStock_731756389.mov";
-import Frontcablepull from "/videos/AdobeStock_731756499.mov";
+
 import Image from "next/image";
 
 const Shoulder = () => {
@@ -48,7 +42,7 @@ const Shoulder = () => {
       </div>
       <div className="h-full w-[3px] mt-7 rounded-md bg-gradient-to-b from-[#f09620]"></div>
     </div>
-    <div id="shoulder" className="md:w-10/12 pr-4 mb-24">
+    <div id="shoulder" className="md:w-10/12 pr-8 mb-24">
       <div className="text-[30px] md:text-7xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
         Shoulder Workout
       </div>
