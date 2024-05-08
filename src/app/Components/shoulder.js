@@ -61,7 +61,7 @@ const Shoulder = () => {
           height={500}
           alt="Seated dumbbell press"
           unoptimized={true}
-          className=""
+          className="mt-3 mb-3"
         />
       </div>
       <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
@@ -73,7 +73,7 @@ const Shoulder = () => {
           height={500}
           alt="Seated behind the neck overhead press"
           unoptimized={true}
-          className=""
+          className="mt-3 mb-3"
         />
       </div>
       <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
@@ -85,7 +85,7 @@ const Shoulder = () => {
           height={500}
           alt="Dumbbell lateral raise"
           unoptimized={true}
-          className=""
+          className="mt-3 mb-3"
         />
       </div>
       <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
@@ -97,7 +97,7 @@ const Shoulder = () => {
           height={500}
           alt="Seated machine overhead press"
           unoptimized={true}
-          className=""
+          className="mt-3 mb-3"
         />
       </div>
       <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
@@ -109,23 +109,44 @@ const Shoulder = () => {
           height={500}
           alt="Cable lateral raise"
           unoptimized={true}
-          className=""
+          className="mt-3 mb-3"
         />
       </div>
       <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
         <span className="text-[#f09620]">Front plate raise</span> <br />
         <span className="text-[20px]">4 sets, 10-12 reps</span>
-        <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Frontplateraise} />
+        <Image
+          src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTQ1MmVkYXAxcHRnNjNsdzZxaGtzdjhvZWwwMW90aHFiZHBocWNpaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/v4GTWnb5rN1YaihKFK/giphy.gif"
+          width={500}
+          height={500}
+          alt="Front plate raise"
+          unoptimized={true}
+          className="mt-3 mb-3"
+        />
       </div>
       <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
         <span className="text-[#f09620]">Rear delt seated fly machine</span> <br />
         <span className="text-[20px]">4 sets, 10-12 reps</span>
-        <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Reverseflymachine} />
+        <Image
+          src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNm41eDI5c28yZGl1ZmxnMmk3ZmR0cjhoZHpocXpkdmg4Mmp5ZGh0ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kohkV9ctmbyQ7q8Adp/giphy.gif"
+          width={500}
+          height={500}
+          alt="Rear delt seated fly machine"
+          unoptimized={true}
+          className="mt-3 mb-3"
+        />
       </div>
       <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
         <span className="text-[#f09620]">Rear delt seated cable row</span> <br />
         <span className="text-[20px]">4 sets, 10-12 reps</span>
-        <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Frontcablepull} />
+        <Image
+          src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHViODg3ZGRoaG9pb3p6b3N0aXQya2ZkbHVsejdqZWNnbHczZWM3dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Lx1RGFMxa6zQPWBkb0/giphy.gif"
+          width={500}
+          height={500}
+          alt="Rear delt seated cable row"
+          unoptimized={true}
+          className="mt-3 mb-3"
+        />
       </div>
     </div>
   </div>

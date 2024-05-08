@@ -56,7 +56,7 @@ const Chest = () => {
       height={500}
       alt="Incline bench press"
       unoptimized={true}
-      className=""
+      className="mt-3 mb-3"
     />
   </div>
   <div>
@@ -68,7 +68,7 @@ const Chest = () => {
       height={500}
       alt="Dumbbell incline press"
       unoptimized={true}
-      className=""
+      className="mt-3 mb-3"
     />
   </div>
   <div>
@@ -80,7 +80,7 @@ const Chest = () => {
       height={500}
       alt="Flat bench press"
       unoptimized={true}
-      className=""
+      className="mt-3 mb-3"
     />
   </div>
   <div>

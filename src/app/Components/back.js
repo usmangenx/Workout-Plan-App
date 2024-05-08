@@ -66,7 +66,7 @@ const Back
       height={500}
       alt="Dumbbell rows"
       unoptimized={true}
-      className=""
+      className="mt-3 mb-3"
     />
   </div>
   <div className="build-in-slideX-left build-in-animate">
@@ -78,7 +78,7 @@ const Back
       height={500}
       alt="Seated wide-grip lat pulldown"
       unoptimized={true}
-      className=""
+      className="mt-3 mb-3"
     />
   </div>
   <div className="build-in-slideX-left build-in-animate">
@@ -90,7 +90,7 @@ const Back
       height={500}
       alt="Seated cable row"
       unoptimized={true}
-      className=""
+      className="mt-3 mb-3"
     />
   </div>
   <div className="build-in-slideX-left build-in-animate">
@@ -102,7 +102,7 @@ const Back
       height={500}
       alt="Close-grip chin-up"
       unoptimized={true}
-      className=""
+      className="mt-3 mb-3"
     />
   </div>
   <div className="build-in-slideX-left build-in-animate">
@@ -114,7 +114,7 @@ const Back
       height={500}
       alt="Hex bar shrug"
       unoptimized={true}
-      className=""
+      className="mt-3 mb-3"
     />
   </div>
   <div className="build-in-slideX-left build-in-animate">
@@ -126,7 +126,7 @@ const Back
       height={500}
       alt="Cable shrug"
       unoptimized={true}
-      className=""
+      className="mt-3 mb-3"
     />
   </div>
   <div className="build-in-slideX-left build-in-animate">
@@ -138,7 +138,7 @@ const Back
       height={500}
       alt="Close grip lat pulldown"
       unoptimized={true}
-      className=""
+      className="mt-3 mb-3"
     />
   </div>
 </div>
