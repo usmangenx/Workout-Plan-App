@@ -1,10 +1,5 @@
 
-import Video from "next-video";
-import Hamercurls from "/videos/AdobeStock_767706278.mov";
-import Dips from "/videos/AdobeStock_278055135.mov";
-import Ezbarcurls from "/videos/AdobeStock_314713082.mov";
-import Tricablepushdown from "/videos/AdobeStock_200978518.mov";
-import Barbellcurl from "/videos/AdobeStock_708078766.mov";
+
 import Image from "next/image";
 
 const Arm = () => {
