@@ -44,7 +44,7 @@ const Leg = () => {
     </div>
     <div className="h-full w-[3px] mt-7 rounded-md bg-gradient-to-b from-[#e77e7e]"></div>
   </div>
-  <div id="leg" className="md:w-10/12 mb-24">
+  <div id="leg" className="md:w-10/12 pr-4 mb-24">
     <div className="text-[30px] md:text-7xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
       Leg Workout
     </div>

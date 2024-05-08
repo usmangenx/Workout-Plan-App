@@ -48,7 +48,7 @@ const Back
           className=" h-full w-[3px] mt-7 rounded-md bg-gradient-to-b from-[#A020F0]"
         ></div>
       </div>
-      <div id="back" className="md:w-10/12 mb-24 ">
+      <div id="back" className="md:w-10/12 pr-4 mb-24 ">
         <div
           
           className="text-[30px] md:text-7xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate"

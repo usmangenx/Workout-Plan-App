@@ -48,7 +48,7 @@ const Shoulder = () => {
       </div>
       <div className="h-full w-[3px] mt-7 rounded-md bg-gradient-to-b from-[#f09620]"></div>
     </div>
-    <div id="shoulder" className="md:w-10/12 mb-24">
+    <div id="shoulder" className="md:w-10/12 pr-4 mb-24">
       <div className="text-[30px] md:text-7xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
         Shoulder Workout
       </div>
@@ -91,12 +91,26 @@ const Shoulder = () => {
       <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
         <span className="text-[#f09620]">Seated machine overhead press</span> <br />
         <span className="text-[20px]">4 sets, 8-10 reps</span>
-        <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Machineoverheadpress} />
+        <Image
+          src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzRxeGRzZDB1am81a2d2NGJjem12NWd0NXVkd25mM2w3cjdienRyNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/I7m1BFsBQgL9RbRsBW/giphy.gif"
+          width={500}
+          height={500}
+          alt="Seated machine overhead press"
+          unoptimized={true}
+          className=""
+        />
       </div>
       <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
         <span className="text-[#f09620]">Cable lateral raise</span> <br />
         <span className="text-[20px]">4 sets, 10-12 reps</span>
-        <Video className="mt-5 mr-5 md:max-w-[1300px] max-w-[300px]" src={Cableliterlraise} />
+        <Image
+          src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3FkeHNzemtzcTd4Nnc4MnVjc2xrMTkzOThnbnl6bXcxeTEzeDd3YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NbY0RE0Phvy4A2jdXl/giphy.gif"
+          width={500}
+          height={500}
+          alt="Cable lateral raise"
+          unoptimized={true}
+          className=""
+        />
       </div>
       <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
         <span className="text-[#f09620]">Front plate raise</span> <br />
