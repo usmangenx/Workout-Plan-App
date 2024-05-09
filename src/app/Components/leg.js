@@ -55,7 +55,7 @@ const Leg = () => {
           height={500}
           alt="Barbell squat with pause"
           unoptimized={true}
-          className="mt-3 mb-12"
+          className="mt-3 mb-20"
         />
     </div>
     <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
@@ -71,7 +71,7 @@ const Leg = () => {
           height={500}
           alt="Machine leg press"
           unoptimized={true}
-          className="mt-3 mb-12"
+          className="mt-3 mb-20"
         />
     </div>
     <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
