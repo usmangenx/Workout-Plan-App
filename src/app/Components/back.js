@@ -129,7 +129,7 @@ const Back
       className="mt-3 mb-20"
     />
   </div>
-  <div className="leading-5">
+  <div className="leading-7">
     <span className="text-[#A020F0]">Close grip lat pulldown</span> <br/>
     <span className="text-[20px]">4 sets, 6-10 reps</span>
     <Image
