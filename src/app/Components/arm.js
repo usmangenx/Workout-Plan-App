@@ -56,7 +56,7 @@ const Arm = () => {
           height={500}
           alt="Seated Hammer Curl"
           unoptimized={true}
-          className="mt-3 mb-3"
+          className="mt-3 mb-12"
         />
     </div>
     <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
@@ -69,7 +69,7 @@ const Arm = () => {
           height={500}
           alt="Bodyweight dips"
           unoptimized={true}
-          className="mt-3 mb-3"
+          className="mt-3 mb-12"
         />
     </div>
     <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
@@ -82,7 +82,7 @@ const Arm = () => {
           height={500}
           alt="EZ bar curls"
           unoptimized={true}
-          className="mt-3 mb-3"
+          className="mt-3 mb-12"
         />
     </div>
     <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
@@ -95,7 +95,7 @@ const Arm = () => {
           height={500}
           alt="Triceps cable pushdown"
           unoptimized={true}
-          className="mt-3 mb-3"
+          className="mt-3 mb-12"
         />
     </div>
     <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">

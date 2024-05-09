@@ -55,7 +55,7 @@ const Shoulder = () => {
           height={500}
           alt="Seated dumbbell press"
           unoptimized={true}
-          className="mt-3 mb-3"
+          className="mt-3 mb-12"
         />
       </div>
       <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
@@ -67,7 +67,7 @@ const Shoulder = () => {
           height={500}
           alt="Seated behind the neck overhead press"
           unoptimized={true}
-          className="mt-3 mb-3"
+          className="mt-3 mb-12"
         />
       </div>
       <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
@@ -79,7 +79,7 @@ const Shoulder = () => {
           height={500}
           alt="Dumbbell lateral raise"
           unoptimized={true}
-          className="mt-3 mb-3"
+          className="mt-3 mb-12"
         />
       </div>
       <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
@@ -91,7 +91,7 @@ const Shoulder = () => {
           height={500}
           alt="Seated machine overhead press"
           unoptimized={true}
-          className="mt-3 mb-3"
+          className="mt-3 mb-12"
         />
       </div>
       <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
@@ -103,7 +103,7 @@ const Shoulder = () => {
           height={500}
           alt="Cable lateral raise"
           unoptimized={true}
-          className="mt-3 mb-3"
+          className="mt-3 mb-12"
         />
       </div>
       <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
@@ -115,7 +115,7 @@ const Shoulder = () => {
           height={500}
           alt="Front plate raise"
           unoptimized={true}
-          className="mt-3 mb-3"
+          className="mt-3 mb-12"
         />
       </div>
       <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
@@ -127,7 +127,7 @@ const Shoulder = () => {
           height={500}
           alt="Rear delt seated fly machine"
           unoptimized={true}
-          className="mt-3 mb-3"
+          className="mt-3 mb-12"
         />
       </div>
       <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
