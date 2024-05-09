@@ -47,8 +47,10 @@ const Leg = () => {
       Leg Workout
     </div>
     <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
+    <div className="leading-5">
       <span className="text-[#e77e7e]">Barbell squat with pause</span> <br />
       <span className="text-[20px]">4 sets, 3 reps</span>
+      </div>
       <Image
           src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExazF6bGJrbjFvZzRlc2xsN252ZDNqdHFjZXR5MDVsbmExdHcyZ3BjbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mQ8QwFOFSfcphejsYt/giphy.gif"
           width={500}
@@ -59,12 +61,16 @@ const Leg = () => {
         />
     </div>
     <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
+    <div className="leading-5 mb-20">
       <span className="text-[#e77e7e]">Barbell squat</span> <br />
       <span className="text-[20px]">6 sets, 5 reps</span>
+      </div>
     </div>
     <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
+    <div className="leading-5">
       <span className="text-[#e77e7e]">Machine leg press</span> <br />
       <span className="text-[20px]">3 sets, 20 reps</span>
+      </div>
       <Image
           src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTN4cDZpNG9lNTg5OW92dTRiMW8wa3A0bDJzOGd6NW9oOGlsZXpnNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xLkMyVaB5xxJ3Uof2T/giphy.gif"
           width={500}
@@ -75,8 +81,10 @@ const Leg = () => {
         />
     </div>
     <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
+    <div className="leading-5">
       <span className="text-[#e77e7e]">Lying hamstring curls</span> <br />
       <span className="text-[20px]">5 sets, 10 reps</span>
+      </div>
       <Image
           src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGM1NGk2ejJhMGdlNDhvbndqejdyb3V1aWp1ZG56d21rZWczbGg3aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fikZvfAgBbdHPnHKXv/giphy.gif"
           width={500}

@@ -46,9 +46,11 @@ const Shoulder = () => {
       <div className="text-[30px] md:text-7xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
         Shoulder Workout
       </div>
-      <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
+      <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate ">
+      <div className="leading-5">
         <span className="text-[#f09620]">Seated dumbbell press</span> <br />
         <span className="text-[20px]">4 sets, 8-10 reps</span>
+        </div>
         <Image
           src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExamMzbTc5cWl4ZTRuejZpYnRpbmU3aDc5Ym05YzUwanJhNWhmb3BueCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lETHuaetZYcYWHpbbp/giphy.gif"
           width={500}
@@ -59,8 +61,10 @@ const Shoulder = () => {
         />
       </div>
       <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
+      <div className="leading-5">
         <span className="text-[#f09620]">Seated behind the neck overhead press</span> <br />
         <span className="text-[20px]">4 sets, 8-10 reps</span>
+        </div>
         <Image
           src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDdsZ3dqMHA3bTE0dnlmZGFmbTFwY2t4NGsxdzg0NjZub3diNXE5byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HcjwzI0ooxK7Kqh55V/giphy.gif"
           width={500}
@@ -71,8 +75,10 @@ const Shoulder = () => {
         />
       </div>
       <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
+      <div className="leading-5">
         <span className="text-[#f09620]">Dumbbell lateral raise</span> <br />
         <span className="text-[20px]">4 sets, 8-10 reps</span>
+        </div>
         <Image
           src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXF0aGtwNTl4bnFnemxhOHR1emp5dmthM2YyN2FvZGVqMnFndXQxZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hBeai5d49aiDMakqHX/giphy.gif"
           width={500}
@@ -83,8 +89,10 @@ const Shoulder = () => {
         />
       </div>
       <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
+      <div className="leading-5">
         <span className="text-[#f09620]">Seated machine overhead press</span> <br />
         <span className="text-[20px]">4 sets, 8-10 reps</span>
+        </div>
         <Image
           src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzRxeGRzZDB1am81a2d2NGJjem12NWd0NXVkd25mM2w3cjdienRyNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/I7m1BFsBQgL9RbRsBW/giphy.gif"
           width={500}
@@ -95,8 +103,10 @@ const Shoulder = () => {
         />
       </div>
       <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
+      <div className="leading-5">
         <span className="text-[#f09620]">Cable lateral raise</span> <br />
         <span className="text-[20px]">4 sets, 10-12 reps</span>
+        </div>
         <Image
           src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3FkeHNzemtzcTd4Nnc4MnVjc2xrMTkzOThnbnl6bXcxeTEzeDd3YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NbY0RE0Phvy4A2jdXl/giphy.gif"
           width={500}
@@ -107,8 +117,10 @@ const Shoulder = () => {
         />
       </div>
       <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
+      <div className="leading-5">
         <span className="text-[#f09620]">Front plate raise</span> <br />
         <span className="text-[20px]">4 sets, 10-12 reps</span>
+        </div>
         <Image
           src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTQ1MmVkYXAxcHRnNjNsdzZxaGtzdjhvZWwwMW90aHFiZHBocWNpaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/v4GTWnb5rN1YaihKFK/giphy.gif"
           width={500}
@@ -119,8 +131,10 @@ const Shoulder = () => {
         />
       </div>
       <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
+      <div className="leading-5">
         <span className="text-[#f09620]">Rear delt seated fly machine</span> <br />
         <span className="text-[20px]">4 sets, 10-12 reps</span>
+        </div>
         <Image
           src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNm41eDI5c28yZGl1ZmxnMmk3ZmR0cjhoZHpocXpkdmg4Mmp5ZGh0ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kohkV9ctmbyQ7q8Adp/giphy.gif"
           width={500}
@@ -131,8 +145,10 @@ const Shoulder = () => {
         />
       </div>
       <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
+      <div className="leading-5">
         <span className="text-[#f09620]">Rear delt seated cable row</span> <br />
         <span className="text-[20px]">4 sets, 10-12 reps</span>
+        </div>
         <Image
           src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHViODg3ZGRoaG9pb3p6b3N0aXQya2ZkbHVsejdqZWNnbHczZWM3dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Lx1RGFMxa6zQPWBkb0/giphy.gif"
           width={500}

@@ -57,7 +57,7 @@ const Back
           Back Workout
         </div>
         <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item">
-  <div>
+        <div className="leading-5">
     <span className="text-[#A020F0]">Dumbbell rows</span> <br/>
     <span className="text-[20px]">4 sets, 6-8 reps</span>
     <Image
@@ -69,7 +69,7 @@ const Back
       className="mt-3 mb-20"
     />
   </div>
-  <div className="build-in-slideX-left build-in-animate">
+  <div className="leading-5">
     <span className="text-[#A020F0]">Seated wide-grip lat pulldown</span> <br/>
     <span className="text-[20px]">4 sets, 6-8 reps</span>
     <Image
@@ -81,7 +81,7 @@ const Back
       className="mt-3 mb-20"
     />
   </div>
-  <div className="build-in-slideX-left build-in-animate">
+  <div className="leading-5">
     <span className="text-[#A020F0]">Seated cable row</span> <br/>
     <span className="text-[20px]">4 sets, 8-10 reps</span>
     <Image
@@ -93,7 +93,7 @@ const Back
       className="mt-3 mb-20"
     />
   </div>
-  <div className="build-in-slideX-left build-in-animate">
+  <div className="leading-5">
     <span className="text-[#A020F0]">Close-grip chin-up</span> <br/>
     <span className="text-[20px]">4 sets, until failure</span>
     <Image
@@ -105,7 +105,7 @@ const Back
       className="mt-3 mb-20"
     />
   </div>
-  <div className="build-in-slideX-left build-in-animate">
+  <div className="leading-5">
     <span className="text-[#A020F0]">Hex bar shrug</span> <br/>
     <span className="text-[20px]">4 sets, 8-10 reps</span>
     <Image
@@ -117,7 +117,7 @@ const Back
       className="mt-3 mb-20"
     />
   </div>
-  <div className="build-in-slideX-left build-in-animate">
+  <div className="leading-5">
     <span className="text-[#A020F0]">Cable shrug</span> <br/>
     <span className="text-[20px]">4 sets, 8-10 reps</span>
     <Image
@@ -129,7 +129,7 @@ const Back
       className="mt-3 mb-20"
     />
   </div>
-  <div className="build-in-slideX-left build-in-animate">
+  <div className="leading-5">
     <span className="text-[#A020F0]">Close grip lat pulldown</span> <br/>
     <span className="text-[20px]">4 sets, 6-10 reps</span>
     <Image

@@ -46,10 +46,12 @@ const Arm = () => {
     <div className="text-[30px] md:text-7xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
       Arm Workout
     </div>
-    <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
-      <span className="text-[#7ee4e7]">Seated Hammer Curl</span>
+    <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white">
+      <div className="leading-5">
+     <span className="text-[#7ee4e7]">Seated Hammer Curl</span>
       <br />
       <span className="text-[20px]">3 sets, 10, 8, 6 reps</span>
+      </div>
       <Image
           src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjlkMXJteXBpenZmZjQxNXZzejF3Zjc2NTF0aHdiZmNpM2RtOHAydSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZLeQKMOYvI0SBUOxP0/giphy.gif"
           width={500}
@@ -60,9 +62,11 @@ const Arm = () => {
         />
     </div>
     <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
+      <div className="leading-5">
       <span className="text-[#7ee4e7]">Bodyweight dips</span>
       <br />
       <span className="text-[20px]">3 sets, 15 reps</span>
+      </div>
       <Image
           src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnFkOXR4czFlMDgyaTR2aTB4dmk5NGlhaXE2ajlsaGdyMHc1enl6dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Cp39rt1ip6VGn2rVm7/giphy.gif"
           width={500}
@@ -73,9 +77,11 @@ const Arm = () => {
         />
     </div>
     <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
+      <div className="leading-5">
       <span className="text-[#7ee4e7]">EZ bar curls</span>
       <br />
       <span className="text-[20px]">3 sets, 10, 8, 6 reps</span>
+      </div>
       <Image
           src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW9raWlhOGN1OGk3Y3Q4OTk4ZzVvNHQ4amQyNjV0bzl2aTc4amVydSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RInHQOWN4ZgBk0LGA8/giphy.gif"
           width={500}
@@ -86,9 +92,11 @@ const Arm = () => {
         />
     </div>
     <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
+      <div className="leading-5">
       <span className="text-[#7ee4e7]">Triceps cable pushdown</span>
       <br />
       <span className="text-[20px]">3 sets, 10, 8, 6 reps</span>
+      </div>
       <Image
           src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHd4c2IweXJ5ODk4ejRoZ3F6cWRiODZjdTc1MDN6c2Y3djJwbDBkeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Uw9m82NR68HHG3rNr4/giphy.gif"
           width={500}
@@ -99,9 +107,11 @@ const Arm = () => {
         />
     </div>
     <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
+      <div className="leading-5">
       <span className="text-[#7ee4e7]">Barbell curl</span>
       <br />
       <span className="text-[20px]">1 burnout set</span>
+      </div>
       <Image
           src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTQ3c2F4amx6andkbWRjZ2VlM2hjaHd3bHQ0eTNicnMxcGZ4dmJmeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QknssWcBv5VgmyTvYE/giphy.gif"
           width={500}
