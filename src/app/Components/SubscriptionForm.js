@@ -29,11 +29,10 @@ const SubscriptionForm = () => {
         setEmail("");
       }
 
-      // Clear message and error states after 3 seconds
       setTimeout(() => {
         setMessage("");
         setError("");
-      }, 3000);
+      }, 5000);
     } catch (error) {
       setError("Failed to subscribe.");
       console.error(error);
