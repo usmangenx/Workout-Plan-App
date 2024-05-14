@@ -32,12 +32,12 @@ const SubscriptionForm = () => {
 
   return (
     <section className="">
-      <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ml-5 mr-5">
+      <div className="py-8 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ml-10 mr-7">
         <div className="mx-auto max-w-screen-md sm:text-center">
           <h2 className="mb-4 text-3xl tracking-tight font-medium text-white">
             Sign up for our newsletter
           </h2>
-          <p className="mx-auto mb-8 max-w-2xl font-light text-gray-400 md:mb-12 sm:text-xl">
+          <p className="mx-auto mb-10 max-w-2xl font-light text-gray-400 md:mb-12 sm:text-xl">
             Stay up to date with the Workouts
           </p>
           <form action="#" onSubmit={handleSubmit}>
@@ -61,7 +61,7 @@ const SubscriptionForm = () => {
                   </svg>
                 </div>
                 <input
-                  className="block p-3 pl-10 w-full text-sm text-white bg-gray-700 rounded-lg border border-gray-600 focus:ring-primary-500 focus:border-primary-500"
+                  className="block p-3 pl-10 w-full text-sm text-white bg-gray-700 rounded-lg border mb-5 border-gray-600 focus:ring-primary-500 focus:border-primary-500"
                   placeholder="Enter your email"
                   type="email"
                   id="email"
