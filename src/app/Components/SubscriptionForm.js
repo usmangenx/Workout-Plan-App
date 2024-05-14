@@ -32,7 +32,7 @@ const SubscriptionForm = () => {
 
   return (
     <section className="">
-      <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+      <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ml-5 mr-5">
         <div className="mx-auto max-w-screen-md sm:text-center">
           <h2 className="mb-4 text-3xl tracking-tight font-medium text-white">
             Sign up for our newsletter
