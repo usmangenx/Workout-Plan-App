@@ -7,6 +7,7 @@ import Back from "./Components/back";
 import Shoulder from "./Components/shoulder";
 import Leg from "./Components/leg";
 import Arm from "./Components/arm";
+import SubscriptionForm from "./Components/SubscriptionForm";
 
 export default function Home() {
   return (
@@ -27,6 +28,8 @@ export default function Home() {
       <Shoulder/>
       <Leg/>
       <Arm/>
+      <SubscriptionForm/>
     </div>
+
   );
 }
