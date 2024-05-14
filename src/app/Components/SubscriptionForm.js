@@ -1,9 +1,10 @@
 "use client";
-import React, { useState } from "react";
+import { useState } from "react";
 
 const SubscriptionForm = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [error, setError] = useState("");
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -18,14 +19,23 @@ const SubscriptionForm = () => {
       });
 
       if (!response.ok) {
-        throw new Error("Failed to subscribe");
+        if (response.status === 409) {
+          setError("Email is already registered.");
+        } else {
+          setError("Failed to subscribe.");
+        }
+      } else {
+        setMessage("Subscribed successfully!");
+        setEmail("");
       }
 
-      const data = await response.json();
-      setMessage(data.message);
-      setEmail("");
+      // Clear message and error states after 3 seconds
+      setTimeout(() => {
+        setMessage("");
+        setError("");
+      }, 3000);
     } catch (error) {
-      setMessage("Failed to subscribe.");
+      setError("Failed to subscribe.");
       console.error(error);
     }
   };
@@ -79,7 +89,8 @@ const SubscriptionForm = () => {
                 </button>
               </div>
             </div>
-            
+            {error && <div className="text-red-500 text-sm">{error}</div>}
+            {message && <div className="text-green-500 text-sm">{message}</div>}
           </form>
         </div>
       </div>

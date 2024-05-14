@@ -12,6 +12,11 @@ export async function POST(req) {
   const { email } = await req.json();
 
   try {
+    const existingSubscriber = await Subscriber.findOne({ email });
+    if (existingSubscriber) {
+      return NextResponse.json({ error: "Email is already registered." }, { status: 409 });
+    }
+
     const newSubscriber = new Subscriber({ email });
     await newSubscriber.save();
     return NextResponse.json({ message: "Subscribed successfully!" });
