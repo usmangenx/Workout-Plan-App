@@ -61,9 +61,17 @@ const Leg = () => {
         />
     </div>
     <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
-    <div className="leading-5 mb-20">
+    <div className="leading-5">
       <span className="text-[#e77e7e]">Barbell squat</span> <br />
       <span className="text-[20px]">6 sets, 5 reps</span>
+      <Image
+          src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExazF6bGJrbjFvZzRlc2xsN252ZDNqdHFjZXR5MDVsbmExdHcyZ3BjbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mQ8QwFOFSfcphejsYt/giphy.gif"
+          width={500}
+          height={500}
+          alt="Barbell squat with pause"
+          unoptimized={true}
+          className="mt-3 mb-20"
+        />
       </div>
     </div>
     <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">

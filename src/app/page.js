@@ -1,7 +1,7 @@
 "use client";
 import Nav from "./navbar";
 import Image from "next/image";
-import HeroImage from "/public/1459399.jpg";
+import HeroImage from "/public/Untitled (3).png";
 import Hero from "./Components/hero";
 import Chest from "./Components/chest";
 import Back from "./Components/back";

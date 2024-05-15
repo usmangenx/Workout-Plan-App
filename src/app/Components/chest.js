@@ -82,13 +82,29 @@ const Chest = () => {
               className="mt-3 mb-20"
             />
           </div>
-          <div className="leading-5 mb-20">
+          <div className="leading-5">
             <span className="text-[#7ee787]">Incline bench press</span> <br />
             <span className="text-[20px]">as many reps as possible</span>
+            <Image
+              src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjFqamU3czBwaDd1MzM1NDJ0bmM1dGU5OWV5djkxMHQzazRwamw1NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NrFpQaEvVJHySMlksm/giphy.gif"
+              width={500}
+              height={500}
+              alt="Incline bench press"
+              unoptimized={true}
+              className="mt-3 mb-20"
+            />
           </div>
           <div className="leading-5">
             <span className="text-[#7ee787]">Flat bench press</span> <br />
             <span className="text-[20px]">as many reps as possible</span>
+            <Image
+              src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHk2NGEzenNpZjV3eWJkd3Ntdzg1NGlzaWpjMzV5bzd1cWhvbGIyYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0uciw9RFvWmjKOacYY/giphy-downsized-large.gif"
+              width={500}
+              height={500}
+              alt="Flat bench press"
+              unoptimized={true}
+              className="mt-3 mb-20"
+            />
           </div>
         </div>
       </div>
