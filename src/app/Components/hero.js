@@ -35,7 +35,7 @@ const Hero = () => {
           ></div>
         </div>
       </div>
-      <div className="flex flex-col md:mx-auto ">
+      <div className="flex flex-col ">
         <h1 className="text-white pl-4 pt-9 text-2xl font-extrabold">
           Build Yourself With Us!
         </h1>

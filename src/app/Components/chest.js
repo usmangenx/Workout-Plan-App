@@ -1,6 +1,4 @@
-
 import Image from "next/image";
-
 
 const Chest = () => {
   return (
@@ -47,53 +45,54 @@ const Chest = () => {
           Chest Workout
         </div>
         <div className="text-[25px] leading-3 md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
-  <div className="leading-5">
-    <span className="text-[#7ee787]">Incline bench press</span> <br />
-    <span className="text-[20px]">5 sets, 5 reps</span>
-    <Image
-      src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjFqamU3czBwaDd1MzM1NDJ0bmM1dGU5OWV5djkxMHQzazRwamw1NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NrFpQaEvVJHySMlksm/giphy.gif"
-      width={500}
-      height={500}
-      alt="Incline bench press"
-      unoptimized={true}
-      className="mt-3 mb-20"
-    />
-  </div>
-  <div className="leading-5">
-    <span className="text-[#7ee787]">Dumbbell incline press</span> <br />
-    <span className="text-[20px]">5 sets, 8-10 reps</span>
-    <Image
-      src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWN5cTF3cDhscG5td2RlazdhMHVhMDdtZGpoOGp1ZmZ0MjJ0ZTZwbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qoS97GB5ddCICS93kF/giphy.gif"
-      width={500}
-      height={500}
-      alt="Dumbbell incline press"
-      unoptimized={true}
-      className="mt-3 mb-20"
-    />
-  </div>
-  <div className="leading-5">
-    <span className="text-[#7ee787]">Flat bench press</span> <br />
-    <span className="text-[20px]">5 sets, 6-8 reps</span>
-    <Image
-      src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHk2NGEzenNpZjV3eWJkd3Ntdzg1NGlzaWpjMzV5bzd1cWhvbGIyYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0uciw9RFvWmjKOacYY/giphy-downsized-large.gif"
-      width={500}
-      height={500}
-      alt="Flat bench press"
-      unoptimized={true}
-      className="mt-3 mb-20"
-    />
-  </div>
-  <div className="leading-5 mb-20">
-    <span className="text-[#7ee787]">Incline bench press</span> <br />
-    <span className="text-[20px]">as many reps as possible</span>
-  </div>
-  <div className="leading-5">
-    <span className="text-[#7ee787]">Flat bench press</span> <br />
-    <span className="text-[20px]">as many reps as possible</span>
-  </div>
-</div>
-</div>
-</div>
+          <div className="leading-5">
+            <span className="text-[#7ee787]">Incline bench press</span> <br />
+            <span className="text-[20px]">5 sets, 5 reps</span>
+            <Image
+              src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjFqamU3czBwaDd1MzM1NDJ0bmM1dGU5OWV5djkxMHQzazRwamw1NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NrFpQaEvVJHySMlksm/giphy.gif"
+              width={500}
+              height={500}
+              alt="Incline bench press"
+              unoptimized={true}
+              className="mt-3 mb-20"
+            />
+          </div>
+          <div className="leading-5">
+            <span className="text-[#7ee787]">Dumbbell incline press</span>{" "}
+            <br />
+            <span className="text-[20px]">5 sets, 8-10 reps</span>
+            <Image
+              src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWN5cTF3cDhscG5td2RlazdhMHVhMDdtZGpoOGp1ZmZ0MjJ0ZTZwbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qoS97GB5ddCICS93kF/giphy.gif"
+              width={500}
+              height={500}
+              alt="Dumbbell incline press"
+              unoptimized={true}
+              className="mt-3 mb-20"
+            />
+          </div>
+          <div className="leading-5">
+            <span className="text-[#7ee787]">Flat bench press</span> <br />
+            <span className="text-[20px]">5 sets, 6-8 reps</span>
+            <Image
+              src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHk2NGEzenNpZjV3eWJkd3Ntdzg1NGlzaWpjMzV5bzd1cWhvbGIyYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0uciw9RFvWmjKOacYY/giphy-downsized-large.gif"
+              width={500}
+              height={500}
+              alt="Flat bench press"
+              unoptimized={true}
+              className="mt-3 mb-20"
+            />
+          </div>
+          <div className="leading-5 mb-20">
+            <span className="text-[#7ee787]">Incline bench press</span> <br />
+            <span className="text-[20px]">as many reps as possible</span>
+          </div>
+          <div className="leading-5">
+            <span className="text-[#7ee787]">Flat bench press</span> <br />
+            <span className="text-[20px]">as many reps as possible</span>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 };
 
