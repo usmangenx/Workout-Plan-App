@@ -1,6 +1,7 @@
 import { Righteous } from "next/font/google";
 import "./globals.css";
 
+
 const inter = Righteous({
   weight: "400",
   subsets: ["latin"],
@@ -14,7 +15,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
-    </html>
+      <body className={inter.className}>{children}
+      </body>
+       </html>
   );
 }
