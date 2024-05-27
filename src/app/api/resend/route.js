@@ -15,7 +15,7 @@ export async function POST(req) {
   });
 
   async function getData() {
-    const res = await fetch("http://localhost:3000/api/subscribers", {
+    const res = await fetch("https://davidlaidworkout.vercel.app/api/subscribers", {
       cache: "no-store",
     });
     if (!res.ok) throw new Error("Failed to fetch subscriber data");
