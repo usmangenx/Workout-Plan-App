@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import AdminNav from "../Components/adminnav";
 
 async function getData() {
-  const res = await fetch("http://localhost:3000/api/subscribers", {
+  const res = await fetch("https://davidlaidworkout.vercel.app/api/subscribers", {
     cache: "no-store",
   });
   if (!res.ok) return notFound();
