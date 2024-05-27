@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link"
 import Image from "next/image";
-import Logo from "/public/Untitled (7).png"
+import Logo from "/public/AdobeStock_609068588 (1).jpg"
 
 
 
