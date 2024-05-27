@@ -3,8 +3,7 @@ import { NextResponse } from "next/server";
 
 export async function POST(req) {
   const { STMP_EMAIL, STMP_PASSWORD } = process.env;
-  const { subject, text  } = await req.json()
-
+  const { subject, text } = await req.json();
 
   const transport = nodemailer.createTransport({
     service: "gmail",
@@ -15,9 +14,12 @@ export async function POST(req) {
   });
 
   async function getData() {
-    const res = await fetch("https://davidlaidworkout.vercel.app/api/subscribers", {
-      cache: "no-store",
-    });
+    const res = await fetch(
+      "https://davidlaidworkout.vercel.app/api/subscribers",
+      {
+        cache: "no-store",
+      }
+    );
     if (!res.ok) throw new Error("Failed to fetch subscriber data");
     return res.json();
   }
@@ -44,6 +46,8 @@ export async function POST(req) {
     return NextResponse.json({ message: "Emails sent successfully", results });
   } catch (error) {
     console.error("Error sending emails:", error);
-   return NextResponse.json({ error: error.message || "Failed to send emails" });
+    return NextResponse.json({
+      error: error.message || "Failed to send emails",
+    });
   }
 }

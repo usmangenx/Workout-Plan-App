@@ -29,6 +29,8 @@ export default function Email() {
         throw new Error(data.error);
       }
       setSuccess(true);
+      setSubject("");
+      setText("");
     } catch (error) {
       setError(error.message);
     } finally {
