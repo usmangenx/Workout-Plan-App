@@ -7,7 +7,8 @@ const Leg = () => {
     <div className="flex pl-3 pt-5 space-x-3 md:space-x-10">
   <div className="flex flex-col items-center">
     <div className="relative">
-      <svg
+      <svg 
+        className="mt-2 md:mt-5"
         width="30"
         height="30"
         viewBox="0 0 24 24"

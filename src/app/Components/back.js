@@ -11,6 +11,7 @@ const Back
           className="relative"
         >
           <svg
+            className="mt-2 md:mt-5"
             width="30"
             height="30"
             viewBox="0 0 24 24"
