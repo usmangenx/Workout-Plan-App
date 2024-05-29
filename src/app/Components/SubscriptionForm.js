@@ -5,9 +5,11 @@ const SubscriptionForm = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false); 
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true); 
 
     try {
       const response = await fetch("/api/subscribe", {
@@ -28,14 +30,15 @@ const SubscriptionForm = () => {
         setMessage("Subscribed successfully!");
         setEmail("");
       }
-
+    } catch (error) {
+      setError("Failed to subscribe.");
+      console.error(error);
+    } finally {
+      setLoading(false); 
       setTimeout(() => {
         setMessage("");
         setError("");
       }, 5000);
-    } catch (error) {
-      setError("Failed to subscribe.");
-      console.error(error);
     }
   };
 
@@ -83,8 +86,9 @@ const SubscriptionForm = () => {
                 <button
                   type="submit"
                   className="py-3 px-5 w-full sm:ml-3 sm:mb-5 text-sm font-medium text-center text-white rounded-lg border cursor-pointer bg-primary-600 border-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-800"
+                  disabled={loading} 
                 >
-                  Subscribe
+                  {loading ? "Submitting.." : "Subscribe"} {}
                 </button>
               </div>
             </div>
