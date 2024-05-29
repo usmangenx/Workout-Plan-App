@@ -60,7 +60,7 @@ const SubscriptionForm = () => {
                 </label>
                 <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
                   <svg
-                    className="w-5 h-5 text-gray-400"
+                    className="w-5 h-5 text-gray-400 sm:mb-5"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="(link unavailable)"
@@ -82,7 +82,7 @@ const SubscriptionForm = () => {
               <div>
                 <button
                   type="submit"
-                  className="py-3 px-5 w-full text-sm font-medium text-center text-white rounded-lg border cursor-pointer bg-primary-600 border-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-800"
+                  className="py-3 px-5 w-full sm:ml-3 sm:mb-5 text-sm font-medium text-center text-white rounded-lg border cursor-pointer bg-primary-600 border-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-800"
                 >
                   Subscribe
                 </button>

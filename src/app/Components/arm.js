@@ -47,7 +47,7 @@ const Arm = () => {
       Arm Workout
     </div>
     <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white">
-      <div className="leading-5">
+      <div className="leading-7">
      <span className="text-[#7ee4e7]">Seated Hammer Curl</span>
       <br />
       <span className="text-[20px]">3 sets, 10, 8, 6 reps</span>
@@ -62,7 +62,7 @@ const Arm = () => {
         />
     </div>
     <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
-      <div className="leading-5">
+      <div className="leading-7">
       <span className="text-[#7ee4e7]">Bodyweight dips</span>
       <br />
       <span className="text-[20px]">3 sets, 15 reps</span>
@@ -77,7 +77,7 @@ const Arm = () => {
         />
     </div>
     <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
-      <div className="leading-5">
+      <div className="leading-7">
       <span className="text-[#7ee4e7]">EZ bar curls</span>
       <br />
       <span className="text-[20px]">3 sets, 10, 8, 6 reps</span>
@@ -92,7 +92,7 @@ const Arm = () => {
         />
     </div>
     <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
-      <div className="leading-5">
+      <div className="leading-7">
       <span className="text-[#7ee4e7]">Triceps cable pushdown</span>
       <br />
       <span className="text-[20px]">3 sets, 10, 8, 6 reps</span>
@@ -107,7 +107,7 @@ const Arm = () => {
         />
     </div>
     <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
-      <div className="leading-5">
+      <div className="leading-7">
       <span className="text-[#7ee4e7]">Barbell curl</span>
       <br />
       <span className="text-[20px]">1 burnout set</span>

@@ -45,7 +45,7 @@ const Chest = () => {
           Chest Workout
         </div>
         <div className="text-[25px] leading-3 md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
-          <div className="leading-5">
+          <div className="leading-7">
             <span className="text-[#7ee787]">Incline bench press</span> <br />
             <span className="text-[20px]">5 sets, 5 reps</span>
             <Image
@@ -57,7 +57,7 @@ const Chest = () => {
               className="mt-3 mb-20"
             />
           </div>
-          <div className="leading-5">
+          <div className="leading-7">
             <span className="text-[#7ee787]">Dumbbell incline press</span>{" "}
             <br />
             <span className="text-[20px]">5 sets, 8-10 reps</span>
@@ -70,7 +70,7 @@ const Chest = () => {
               className="mt-3 mb-20"
             />
           </div>
-          <div className="leading-5">
+          <div className="leading-7">
             <span className="text-[#7ee787]">Flat bench press</span> <br />
             <span className="text-[20px]">5 sets, 6-8 reps</span>
             <Image
@@ -82,7 +82,7 @@ const Chest = () => {
               className="mt-3 mb-20"
             />
           </div>
-          <div className="leading-5">
+          <div className="leading-7">
             <span className="text-[#7ee787]">Incline bench press</span> <br />
             <span className="text-[20px]">as many reps as possible</span>
             <Image
@@ -94,7 +94,7 @@ const Chest = () => {
               className="mt-3 mb-20"
             />
           </div>
-          <div className="leading-5">
+          <div className="leading-7">
             <span className="text-[#7ee787]">Flat bench press</span> <br />
             <span className="text-[20px]">as many reps as possible</span>
             <Image

@@ -47,7 +47,7 @@ const Shoulder = () => {
         Shoulder Workout
       </div>
       <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate ">
-      <div className="leading-5">
+      <div className="leading-7">
         <span className="text-[#f09620]">Seated dumbbell press</span> <br />
         <span className="text-[20px]">4 sets, 8-10 reps</span>
         </div>
@@ -61,7 +61,7 @@ const Shoulder = () => {
         />
       </div>
       <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
-      <div className="leading-5">
+      <div className="leading-7">
         <span className="text-[#f09620]">Seated behind the neck overhead press</span> <br />
         <span className="text-[20px]">4 sets, 8-10 reps</span>
         </div>
@@ -75,7 +75,7 @@ const Shoulder = () => {
         />
       </div>
       <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
-      <div className="leading-5">
+      <div className="leading-7">
         <span className="text-[#f09620]">Dumbbell lateral raise</span> <br />
         <span className="text-[20px]">4 sets, 8-10 reps</span>
         </div>
@@ -89,7 +89,7 @@ const Shoulder = () => {
         />
       </div>
       <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
-      <div className="leading-5">
+      <div className="leading-7">
         <span className="text-[#f09620]">Seated machine overhead press</span> <br />
         <span className="text-[20px]">4 sets, 8-10 reps</span>
         </div>
@@ -103,7 +103,7 @@ const Shoulder = () => {
         />
       </div>
       <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
-      <div className="leading-5">
+      <div className="leading-7">
         <span className="text-[#f09620]">Cable lateral raise</span> <br />
         <span className="text-[20px]">4 sets, 10-12 reps</span>
         </div>
@@ -117,7 +117,7 @@ const Shoulder = () => {
         />
       </div>
       <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
-      <div className="leading-5">
+      <div className="leading-7">
         <span className="text-[#f09620]">Front plate raise</span> <br />
         <span className="text-[20px]">4 sets, 10-12 reps</span>
         </div>
@@ -131,7 +131,7 @@ const Shoulder = () => {
         />
       </div>
       <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
-      <div className="leading-5">
+      <div className="leading-7">
         <span className="text-[#f09620]">Rear delt seated fly machine</span> <br />
         <span className="text-[20px]">4 sets, 10-12 reps</span>
         </div>
@@ -145,7 +145,7 @@ const Shoulder = () => {
         />
       </div>
       <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
-      <div className="leading-5">
+      <div className="leading-7">
         <span className="text-[#f09620]">Rear delt seated cable row</span> <br />
         <span className="text-[20px]">4 sets, 10-12 reps</span>
         </div>

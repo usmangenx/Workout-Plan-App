@@ -47,7 +47,7 @@ const Leg = () => {
       Leg Workout
     </div>
     <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
-    <div className="leading-5">
+    <div className="leading-7">
       <span className="text-[#e77e7e]">Barbell squat with pause</span> <br />
       <span className="text-[20px]">4 sets, 3 reps</span>
       </div>
@@ -61,7 +61,7 @@ const Leg = () => {
         />
     </div>
     <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
-    <div className="leading-5">
+    <div className="leading-7">
       <span className="text-[#e77e7e]">Barbell squat</span> <br />
       <span className="text-[20px]">6 sets, 5 reps</span>
       <Image
@@ -75,7 +75,7 @@ const Leg = () => {
       </div>
     </div>
     <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
-    <div className="leading-5">
+    <div className="leading-7">
       <span className="text-[#e77e7e]">Machine leg press</span> <br />
       <span className="text-[20px]">3 sets, 20 reps</span>
       </div>
@@ -89,7 +89,7 @@ const Leg = () => {
         />
     </div>
     <div className="text-[25px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate">
-    <div className="leading-5">
+    <div className="leading-7">
       <span className="text-[#e77e7e]">Lying hamstring curls</span> <br />
       <span className="text-[20px]">5 sets, 10 reps</span>
       </div>
