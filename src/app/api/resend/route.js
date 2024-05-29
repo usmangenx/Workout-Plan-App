@@ -37,7 +37,7 @@ export async function POST(req) {
       const unsubscribeToken = generateUnsubscribeToken(recipient.email);
 
       // Create the unsubscribe link with the token
-      const unsubscribeLink = `https://davidlaidworkout.vercel.app/unsubscribe?token=${unsubscribeToken}`;
+      const unsubscribeLink = `https://davidlaidworkout.vercel.app/resend?token=${unsubscribeToken}`;
 
       // Append unsubscribe link to the email text
       const emailText = `${text}\n\nTo unsubscribe, click here: ${unsubscribeLink}`;
