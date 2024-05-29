@@ -5,11 +5,26 @@ const SubscriptionForm = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [error, setError] = useState("");
-  const [loading, setLoading] = useState(false); 
+  const [loading, setLoading] = useState(false);
+
+  const isValidEmail = (email) => {
+    const emailRegex =
+      /^[\w-]+(\.[\w-]+)*@(gmail|hotmail|yahoo|outlook|aol|icloud|live|msn|me|mail|inbox|gmx|yandex|zoho|protonmail|fastmail|tutanota|mailinator|lavabit|hushmail|rocketmail|runbox|gawab|rediffmail|lycos|mail2world|mail.com|eclipso|indiatimes)\.(com|co\.uk|com\.br|com\.au|fr|ca|com\.mx|es)$/i;
+    return emailRegex.test(email);
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setLoading(true); 
+    setLoading(true);
+
+    if (!isValidEmail(email)) {
+      setError(
+        "Please provide a valid email address from a supported provider."
+      );
+      setLoading(false);
+      setMessage("");
+      return;
+    }
 
     try {
       const response = await fetch("/api/subscribe", {
@@ -34,7 +49,7 @@ const SubscriptionForm = () => {
       setError("Failed to subscribe.");
       console.error(error);
     } finally {
-      setLoading(false); 
+      setLoading(false);
       setTimeout(() => {
         setMessage("");
         setError("");
@@ -86,9 +101,9 @@ const SubscriptionForm = () => {
                 <button
                   type="submit"
                   className="py-3 px-5 w-full sm:ml-3 sm:mb-5 text-sm font-medium text-center text-white rounded-lg border cursor-pointer bg-primary-600 border-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-800"
-                  disabled={loading} 
+                  disabled={loading}
                 >
-                  {loading ? "Submitting.." : "Subscribe"} {}
+                  {loading ? "Submitting.." : "Subscribe"}
                 </button>
               </div>
             </div>
