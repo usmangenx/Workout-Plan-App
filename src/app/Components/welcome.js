@@ -1,19 +1,19 @@
 import nodemailer from "nodemailer";
 
 export async function sendWelcomeEmail(email) {
-  const { STMP_EMAIL, STMP_PASSWORD } = process.env;
+  const { SMTP_EMAIL, SMTP_PASSWORD } = process.env;
 
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: STMP_EMAIL,
-      pass: STMP_PASSWORD,
+      user: SMTP_EMAIL,
+      pass: SMTP_PASSWORD,
     },
   });
 
   try {
     await transporter.sendMail({
-      from: `"David Laid Workouts" <${STMP_EMAIL}>`,
+      from: `"David Laid Workouts" <${SMTP_EMAIL}>`,
       to: email,
       subject: "Welcome to David Laid Workouts Newsletter!",
       text: "Thank you for subscribing to David Laid Workouts newsletter. We're excited to have you on board!",

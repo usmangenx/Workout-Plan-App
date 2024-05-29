@@ -2,14 +2,14 @@ import nodemailer from "nodemailer";
 import { NextResponse } from "next/server";
 
 export async function POST(req) {
-  const { STMP_EMAIL, STMP_PASSWORD } = process.env;
+  const { SMTP_EMAIL, SMTP_PASSWORD } = process.env;
   const { subject, text } = await req.json();
 
   const transport = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: STMP_EMAIL,
-      pass: STMP_PASSWORD,
+      user: SMTP_EMAIL,
+      pass: SMTP_PASSWORD,
     },
   });
 
@@ -33,7 +33,7 @@ export async function POST(req) {
 
     const emailPromises = recipients.map(async (recipient) => {
       const info = await transport.sendMail({
-        from: STMP_EMAIL,
+        from: SMTP_EMAIL,
         to: recipient.email,
         subject,
         text,
