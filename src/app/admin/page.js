@@ -3,11 +3,7 @@ import AdminNav from "../Components/adminnav";
 
 async function getData() {
   const res = await fetch("https://davidlaidworkout.vercel.app/api/subscribers", {
-    headers: {
-      "Cache-Control": "no-cache, no-store, must-revalidate",
-      Pragma: "no-cache",
-      Expires: "0",
-    },
+    cache: "no-store",
   });
   if (!res.ok) return notFound();
   return res.json();
