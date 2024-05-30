@@ -3,7 +3,7 @@ import nodemailer from "nodemailer";
 import { NextResponse } from "next/server";
 
 export async function POST(req) {
-  await connectDB();
+  await connectDB(); 
 
   const { SMTP_EMAIL, SMTP_PASSWORD } = process.env;
   const { subject, text } = await req.json();
@@ -17,12 +17,9 @@ export async function POST(req) {
   });
 
   async function getData() {
-    const res = await fetch(
-      "https://davidlaidworkout.vercel.app/api/subscribers",
-      {
-        cache: "no-store",
-      }
-    );
+    const res = await fetch("https://davidlaidworkout.vercel.app/api/subscribers", {
+      cache: "no-store",
+    });
     if (!res.ok) throw new Error("Failed to fetch subscriber data");
     return res.json();
   }
@@ -35,10 +32,11 @@ export async function POST(req) {
     }
 
     const emailPromises = subscribers.map(async (subscriber) => {
-      const subscriberId = subscriber._id;
+      const subscriberId = subscriber._id; 
 
       const unsubscribeLink = `https://davidlaidworkout.vercel.app/api/unsubscribe?subscriberId=${subscriberId}`;
 
+     
       const combinedText = `
   <html>
     <head>
@@ -70,9 +68,9 @@ export async function POST(req) {
     </head>
     <body>
       <div class="container">
-        <h1>${subject}</h1>
-        <p>${text}</p>
-        <p>To unsubscribe, <a href="${unsubscribeLink}" class="unsubscribe-link">click here</a>.</p>
+        <h1 style="color: #333;">${subject}</h1>
+        <p style="color: #666;">${text}</p>
+        <p>To unsubscribe, <a href="${unsubscribeLink}" style="color: #007bff; text-decoration: none;">click here</a>.</p>
       </div>
     </body>
   </html>
@@ -82,7 +80,7 @@ export async function POST(req) {
         from: SMTP_EMAIL,
         to: subscriber.email,
         subject,
-        text: combinedText,
+        text: combinedText, 
       });
       return { recipient: subscriber.email, info };
     });
