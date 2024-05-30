@@ -37,50 +37,50 @@ export async function POST(req) {
       const unsubscribeLink = `https://davidlaidworkout.vercel.app/api/unsubscribe?subscriberId=${subscriberId}`;
 
      
-      const combinedText = `
-  <html>
-    <head>
-      <style>
-        body {
-          font-family: Arial, sans-serif;
-          background-color: #f3f3f3;
-          padding: 20px;
-        }
-        .container {
-          max-width: 600px;
-          margin: 0 auto;
-          background-color: #fff;
-          border-radius: 10px;
-          padding: 20px;
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-          color: #333;
-        }
-        p {
-          color: #666;
-        }
-        .unsubscribe-link {
-          color: #007bff;
-          text-decoration: none;
-        }
-      </style>
-    </head>
-    <body>
-      <div class="container">
-        <h1 style="color: #333;">${subject}</h1>
-        <p style="color: #666;">${text}</p>
-        <p>To unsubscribe, <a href="${unsubscribeLink}" style="color: #007bff; text-decoration: none;">click here</a>.</p>
-      </div>
-    </body>
-  </html>
-`;
+      const combinedHTML = `
+        <html>
+          <head>
+            <style>
+              body {
+                font-family: Arial, sans-serif;
+                background-color: #f3f3f3;
+                padding: 20px;
+              }
+              .container {
+                max-width: 600px;
+                margin: 0 auto;
+                background-color: #fff;
+                border-radius: 10px;
+                padding: 20px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+              }
+              h1 {
+                color: #333;
+              }
+              p {
+                color: #666;
+              }
+              .unsubscribe-link {
+                color: #007bff;
+                text-decoration: none;
+              }
+            </style>
+          </head>
+          <body>
+            <div class="container">
+              <h1>${subject}</h1>
+              <p>${text}</p>
+              <p>To unsubscribe, <a href="${unsubscribeLink}" class="unsubscribe-link">click here</a>.</p>
+            </div>
+          </body>
+        </html>
+      `;
 
       const info = await transport.sendMail({
         from: SMTP_EMAIL,
         to: subscriber.email,
         subject,
-        text: combinedText, 
+        html: combinedHTML, // Pass HTML content here
       });
       return { recipient: subscriber.email, info };
     });
